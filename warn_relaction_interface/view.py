@@ -13,11 +13,8 @@ logger = logging.getLogger('log')
 
 def start(req):
     return HttpResponse(json.dumps({
-        "code": 200,
-        "msg": "interface alive",
-        "body": {
-            "isalive": 1
-        }
+        "success": True,
+        "msg": "心跳检测成功..."
     }))
 
 

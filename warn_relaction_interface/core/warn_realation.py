@@ -88,3 +88,5 @@ class warn_relation:
         results = list(apriori(self.apro, min_confidence=0.001, min_support=0.001, min_lift=1))
         return results
 
+
+
