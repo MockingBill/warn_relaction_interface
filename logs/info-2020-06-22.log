@@ -1,2 +1,0 @@
-[2020-06-22 09:28:05,138] [systen_unit.py:49] [systen_unit:is_good_file] [INFO]- [39159ead417102cd18e13f9c1d222135]:shape(300000, 5)csv列数量正确
-[2020-06-22 09:28:05,150] [view.py:51] [view:warn_realtion] [INFO]- [39159ead417102cd18e13f9c1d222135]:请求成功，任务开始启动
