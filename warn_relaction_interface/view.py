@@ -20,11 +20,11 @@ def start(req):
 
 def warn_realtion(req):
     work_id = su.get_unique_str()
-    if req.method == "POST" and req.POST.get("data","") !="":
+    if req.method == "POST" and req.POST.get("data", "") != "":
         try:
             down_un = su.download_unit()
 
-            req_para=json.loads(str(req.POST.get("data", "")))
+            req_para = json.loads(str(req.POST.get("data", "")))
             warn_data_url = str(req_para["warn_data_url"])
             if su.isURL(warn_data_url):
                 min_support = str(req_para['min_support'])
@@ -98,8 +98,8 @@ def warn_realtion(req):
 
 
 def get_resu_process(req):
-    if req.method == "POST" and req.POST.get("data","") !="":
-        req_para=json.loads(str(req.POST.get("data","")))
+    if req.method == "POST" and req.POST.get("data", "") != "":
+        req_para = json.loads(str(req.POST.get("data", "")))
         work_id = str(req_para["work_id"])
         resu_file_url = os.path.join(settings.DWON_RESU_URL, work_id + ".csv")
         process_file_url = os.path.join(settings.PROCESS_URL, "process_" + work_id)
@@ -107,7 +107,7 @@ def get_resu_process(req):
             return HttpResponse(json.dumps({
                 "code": 200,
                 "msg": "task complete",
-                "body":{
+                "body": {
                     "ret": "5000",
                     "process": "100%"
                 }
@@ -123,7 +123,7 @@ def get_resu_process(req):
                     return HttpResponse(json.dumps({
                         "code": 200,
                         "msg": "task in progress",
-                        "body":{
+                        "body": {
                             "ret": "5000",
                             "process": current_process
                         }
@@ -157,3 +157,74 @@ def get_resu_process(req):
                 "process": "0%"
             }
         }))
+
+
+def FileDown(req):
+    if req.method == "POST" and req.POST.get("data", "") != "":
+        req_para = json.loads(str(req.POST.get("data", "")))
+        work_id = str(req_para["work_id"])
+        res_dir = os.getcwd() + "/static/"
+        if work_id + ".csv" in os.listdir(res_dir):
+            with open(res_dir + work_id + ".csv") as file:
+                resp = HttpResponse(file)
+                resp['Content-Type'] = 'application/octet-stream'
+                resp['Content-Disposition'] = 'attachment;filename="' + work_id + '.csv"'
+                return resp
+        else:
+            return HttpResponse(json.dumps({
+                "code": 201,
+                "msg": "request err,please use post request",
+                "body": {}
+            }))
+    else:
+        return HttpResponse(json.dumps({
+            "code": 201,
+            "msg": "request err,please use post request",
+            "body": {}
+        }))
+
+
+from django import forms
+
+
+class UploadFileForm(forms.Form):
+    title = forms.CharField(max_length=50)
+    file = forms.FileField()
+
+
+def handle_uploaded_file(f, file_name):
+    with open('static/upload/' + file_name, 'wb+') as destination:
+        for chunk in f.chunks():
+            destination.write(chunk)
+
+
+from uuid import uuid4
+
+
+def FileUp(request):
+    if request.method == 'POST':
+        myFile = request.FILES.get("warn_file", None)
+        if myFile:
+            file_name = str(uuid4()) + ".csv"
+            handle_uploaded_file(myFile, file_name)
+            return HttpResponse(json.dumps({
+                "code": 200,
+                "msg": "upload success",
+                "body": {
+                    "file_url": "static/upload/" + file_name
+                }
+            }))
+        else:
+            return HttpResponse(json.dumps({
+                "code": 201,
+                "msg": "file upload fail,please do upload again,make sure use http-post",
+                "body": {}
+            }))
+
+    else:
+        pass
+    return HttpResponse(json.dumps({
+        "code": 201,
+        "msg": "file upload fail,please do upload again,make sure use http-post",
+        "body": {}
+    }))

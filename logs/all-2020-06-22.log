@@ -1,0 +1,129 @@
+[2020-06-22 09:28:05,138] [systen_unit.py:49] [systen_unit:is_good_file] [INFO]- [39159ead417102cd18e13f9c1d222135]:shape(300000, 5)csv列数量正确
+[2020-06-22 09:28:05,150] [view.py:51] [view:warn_realtion] [INFO]- [39159ead417102cd18e13f9c1d222135]:请求成功，任务开始启动
+[2020-06-22 09:28:05,151] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /warn_realtion HTTP/1.1" 200 132
+[2020-06-22 09:28:34,270] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-22 09:28:37,868] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-22 09:28:39,591] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-22 09:28:42,488] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-22 09:28:43,784] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-22 09:28:44,680] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-22 09:28:57,824] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-22 09:28:59,193] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-22 09:29:00,719] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-22 09:29:02,134] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-22 09:29:03,107] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-22 09:29:04,089] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-22 09:29:04,792] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-22 09:29:05,680] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-22 09:29:06,692] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-22 09:29:07,686] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-22 09:29:15,138] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-22 09:29:16,300] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-22 09:29:45,977] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 81
+[2020-06-22 11:01:32,011] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_download_resu HTTP/1.1" 200 81
+[2020-06-22 11:02:09,232] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /get_download_resu
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: FileDown() missing 1 required positional argument: 'HttpResponse'
+[2020-06-22 11:02:09,248] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /get_download_resu HTTP/1.1" 500 27
+[2020-06-22 11:02:35,946] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /get_download_resu
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/dengqian/PycharmProjects/warn_relaction_interface/warn_relaction_interface/view.py", line 165, in FileDown
+    if work_id+".csv" in os.listdir("../static/"):
+FileNotFoundError: [Errno 2] No such file or directory: '../static/'
+[2020-06-22 11:02:35,965] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /get_download_resu HTTP/1.1" 500 27
+[2020-06-22 11:05:10,302] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /get_download_resu
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/dengqian/PycharmProjects/warn_relaction_interface/warn_relaction_interface/view.py", line 165, in FileDown
+    if work_id+".csv" in os.listdir(os.path.join(os.getcwd(),"../static/")):
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/dengqian/PycharmProjects/warn_relaction_interface/../static/'
+[2020-06-22 11:05:10,321] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /get_download_resu HTTP/1.1" 500 27
+[2020-06-22 11:05:35,133] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /get_download_resu
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/dengqian/PycharmProjects/warn_relaction_interface/warn_relaction_interface/view.py", line 165, in FileDown
+    if work_id+".csv" in os.listdir(os.path.join(os.getcwd(),"/static/")):
+FileNotFoundError: [Errno 2] No such file or directory: '/static/'
+[2020-06-22 11:05:35,146] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /get_download_resu HTTP/1.1" 500 27
+[2020-06-22 11:06:30,158] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /get_download_resu
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/dengqian/PycharmProjects/warn_relaction_interface/warn_relaction_interface/view.py", line 166, in FileDown
+    if work_id+".csv" in os.listdir(res_dir):
+FileNotFoundError: [Errno 2] No such file or directory: '/static/'
+[2020-06-22 11:06:30,173] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /get_download_resu HTTP/1.1" 500 27
+[2020-06-22 11:06:50,392] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /get_download_resu
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/dengqian/PycharmProjects/warn_relaction_interface/warn_relaction_interface/view.py", line 167, in FileDown
+    if work_id+".csv" in os.listdir(res_dir):
+FileNotFoundError: [Errno 2] No such file or directory: '/static/'
+[2020-06-22 11:06:50,409] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /get_download_resu HTTP/1.1" 500 27
+[2020-06-22 11:07:16,406] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /get_download_resu
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/dengqian/PycharmProjects/warn_relaction_interface/warn_relaction_interface/view.py", line 167, in FileDown
+    if work_id+".csv" in os.listdir(res_dir):
+FileNotFoundError: [Errno 2] No such file or directory: '/static/'
+[2020-06-22 11:07:16,421] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /get_download_resu HTTP/1.1" 500 27
+[2020-06-22 11:14:50,424] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /get_download_resu
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/dengqian/PycharmProjects/warn_relaction_interface/warn_relaction_interface/view.py", line 168, in FileDown
+    with open('../static/'+work_id+".csv") as file:
+FileNotFoundError: [Errno 2] No such file or directory: '../static/39159ead417102cd18e13f9c1d222135.csv'
+[2020-06-22 11:14:50,444] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /get_download_resu HTTP/1.1" 500 27
+[2020-06-22 11:15:35,946] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_download_resu HTTP/1.1" 200 283456
+[2020-06-22 16:00:32,015] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /upload_file HTTP/1.1" 200 75
+[2020-06-22 16:00:47,049] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload_file HTTP/1.1" 200 75
+[2020-06-22 16:01:24,830] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload_file HTTP/1.1" 200 75
+[2020-06-22 16:20:04,118] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload_file HTTP/1.1" 200 75
+[2020-06-22 16:20:31,984] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload_file HTTP/1.1" 200 75
+[2020-06-22 16:20:35,724] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload_file HTTP/1.1" 200 75
+[2020-06-22 16:23:21,003] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload_file HTTP/1.1" 200 118
+[2020-06-22 16:23:44,316] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 67
+[2020-06-22 16:23:44,462] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-06-22 16:23:44,463] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 85
+[2020-06-22 16:23:49,959] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/upload/77aab76c-8a53-4590-94f2-fd9a3dc10397.csv HTTP/1.1" 200 30599609

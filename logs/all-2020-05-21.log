@@ -1,0 +1,8 @@
+[2020-05-21 16:52:27,436] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 63
+[2020-05-21 16:52:27,806] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-05-21 16:52:27,807] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 85
+[2020-05-21 16:54:54,832] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /healthcheck.do HTTP/1.1" 200 63
+[2020-05-21 16:56:17,371] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /healthcheck.do HTTP/1.1" 200 67
+[2020-05-21 16:59:34,661] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /healthcheck.do HTTP/1.1" 200 67
+[2020-05-21 16:59:38,663] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /healthcheck.do HTTP/1.1" 200 67
+[2020-05-21 16:59:41,100] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /healthcheck.do HTTP/1.1" 200 67

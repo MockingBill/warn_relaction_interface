@@ -11,4 +11,7 @@ urlpatterns = [
     url(r'warn_realtion', view.warn_realtion),
     url(r'get_resu_process', view.get_resu_process),
     url(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT}),
+    url(r'get_download_resu',view.FileDown),
+    url(r'upload_file',view.FileUp),
+
 ]
