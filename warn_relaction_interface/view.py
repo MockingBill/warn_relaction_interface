@@ -7,7 +7,6 @@ import os
 import re
 import json
 import logging
-from .settings import PROJECT_ROOT
 
 logger = logging.getLogger('log')
 
@@ -164,9 +163,7 @@ def FileDown(req):
     if req.method == "POST" and req.POST.get("data", "") != "":
         req_para = json.loads(str(req.POST.get("data", "")))
         work_id = str(req_para["work_id"])
-        file_path = file_path = os.path.join(PROJECT_ROOT, '../static/download')
-
-        file_path
+        file_path = file_path = os.path.join(settings.DWON_RESU_URL)
         if work_id + ".csv" in os.listdir(file_path):
             with open(os.path.join(file_path, work_id + ".csv")) as file:
                 resp = HttpResponse(file)
@@ -200,7 +197,7 @@ class UploadFileForm(forms.Form):
 
 
 def handle_uploaded_file(f, file_name):
-    file_path = os.path.join(PROJECT_ROOT, '../static/upload')
+    file_path = os.path.join(settings.UPLOAD_URL)
     print(file_path)
     with open(os.path.join(file_path, file_name), 'wb+') as destination:
         for chunk in f.chunks():

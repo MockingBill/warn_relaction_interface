@@ -166,3 +166,11 @@ FileNotFoundError: [Errno 2] No such file or directory: 'warn_relaction_interfac
 [2020-06-23 15:34:22,216] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
 [2020-06-23 15:35:34,669] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 81
 [2020-06-23 15:35:50,230] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_download_resu HTTP/1.1" 200 283456
+[2020-06-23 16:21:14,999] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/upload/29457136-7928-4c96-92d8-2c28cf379f49.csv HTTP/1.1" 200 30599609
+[2020-06-23 16:21:15,644] [systen_unit.py:49] [systen_unit:is_good_file] [INFO]- [31985d260ef0879977625c1eef75f357]:shape(300000, 5)csv列数量正确
+[2020-06-23 16:21:15,654] [view.py:51] [view:warn_realtion] [INFO]- [31985d260ef0879977625c1eef75f357]:请求成功，任务开始启动
+[2020-06-23 16:21:15,655] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /warn_realtion HTTP/1.1" 200 132
+[2020-06-23 16:21:23,720] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 16:22:39,076] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 81
+[2020-06-23 16:22:48,792] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_download_resu HTTP/1.1" 200 283456
+[2020-06-23 16:22:51,857] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload_file HTTP/1.1" 200 133
