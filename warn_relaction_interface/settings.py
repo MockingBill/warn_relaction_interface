@@ -149,8 +149,9 @@ FILE_UPLOAD_MAX_MEMORY_SIZE = 26214400
 DATA_UPLOAD_MAX_MEMORY_SIZE = 26214400
 
 PROCESS_URL = os.path.join(BASE_DIR, 'logs', 'process')
-DWON_RESU_URL = os.path.join(BASE_DIR, 'static')
+DWON_RESU_URL = os.path.join(BASE_DIR, 'static','download')
 
 if not os.path.exists(PROCESS_URL): os.mkdir(PROCESS_URL)
 if not os.path.exists(DWON_RESU_URL): os.mkdir(DWON_RESU_URL)
 if not os.path.exists(MEDIA_ROOT): os.mkdir(MEDIA_ROOT)
+PROJECT_ROOT = os.path.dirname(__file__)

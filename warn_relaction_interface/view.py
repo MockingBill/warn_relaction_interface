@@ -7,6 +7,7 @@ import os
 import re
 import json
 import logging
+from .settings import PROJECT_ROOT
 
 logger = logging.getLogger('log')
 
@@ -163,9 +164,11 @@ def FileDown(req):
     if req.method == "POST" and req.POST.get("data", "") != "":
         req_para = json.loads(str(req.POST.get("data", "")))
         work_id = str(req_para["work_id"])
-        res_dir = os.getcwd() + "/static/"
-        if work_id + ".csv" in os.listdir(res_dir):
-            with open(res_dir + work_id + ".csv") as file:
+        file_path = file_path = os.path.join(PROJECT_ROOT, '../static/download')
+
+        file_path
+        if work_id + ".csv" in os.listdir(file_path):
+            with open(os.path.join(file_path, work_id + ".csv")) as file:
                 resp = HttpResponse(file)
                 resp['Content-Type'] = 'application/octet-stream'
                 resp['Content-Disposition'] = 'attachment;filename="' + work_id + '.csv"'
@@ -175,7 +178,7 @@ def FileDown(req):
                 "code": 201,
                 "msg": "request err,please use post request",
                 "body": {
-                    "ret":"6001"
+                    "ret": "6001"
                 }
             }))
     else:
@@ -197,7 +200,9 @@ class UploadFileForm(forms.Form):
 
 
 def handle_uploaded_file(f, file_name):
-    with open('static/upload/' + file_name, 'wb+') as destination:
+    file_path = os.path.join(PROJECT_ROOT, '../static/upload')
+    print(file_path)
+    with open(os.path.join(file_path, file_name), 'wb+') as destination:
         for chunk in f.chunks():
             destination.write(chunk)
 

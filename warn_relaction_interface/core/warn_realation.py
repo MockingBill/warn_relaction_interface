@@ -43,7 +43,7 @@ class warn_relation:
                     j_resu['rule'].append(' '.join(list(v.items)))
                     j_resu['support'].append(v.support)
             z_resu = pd.DataFrame(j_resu)
-            z_resu.to_csv(os.path.join(settings.BASE_DIR, 'static', work_id + ".csv"), encoding="utf-8",index=None)
+            z_resu.to_csv(os.path.join(settings.DWON_RESU_URL, work_id + ".csv"), encoding="utf-8",index=None)
             with open(os.path.join(settings.PROCESS_URL, 'process_' + self.work_id), 'a+') as f:
                 print("[" + self.work_id + "]" + "  当前进度：100%",
                       file=f)
