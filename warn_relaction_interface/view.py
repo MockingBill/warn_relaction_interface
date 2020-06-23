@@ -174,13 +174,17 @@ def FileDown(req):
             return HttpResponse(json.dumps({
                 "code": 201,
                 "msg": "request err,please use post request",
-                "body": {}
+                "body": {
+                    "ret":"6001"
+                }
             }))
     else:
         return HttpResponse(json.dumps({
             "code": 201,
             "msg": "request err,please use post request",
-            "body": {}
+            "body": {
+                "ret": "6002"
+            }
         }))
 
 
@@ -211,14 +215,18 @@ def FileUp(request):
                 "code": 200,
                 "msg": "upload success",
                 "body": {
-                    "file_url": "static/upload/" + file_name
+                    "file_url": "static/upload/" + file_name,
+                    "ret": "6000"
                 }
             }))
         else:
             return HttpResponse(json.dumps({
                 "code": 201,
                 "msg": "file upload fail,please do upload again,make sure use http-post",
-                "body": {}
+                "body": {
+                    "file_url": "",
+                    "ret": "6001"
+                }
             }))
 
     else:
@@ -226,5 +234,8 @@ def FileUp(request):
     return HttpResponse(json.dumps({
         "code": 201,
         "msg": "file upload fail,please do upload again,make sure use http-post",
-        "body": {}
+        "body": {
+            "file_url": "",
+            "ret": "6002"
+        }
     }))
