@@ -1,0 +1,29 @@
+[2020-09-11 10:00:29,626] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 67
+[2020-09-11 10:00:29,807] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2020-09-11 10:00:29,808] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 85
+[2020-09-11 10:01:01,946] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /get_download_resu?work_id=ad854c895401a84cfcb32b1d46922a0b.csv HTTP/1.1" 200 84
+[2020-09-11 10:01:17,092] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /download/http://127.0.0.1:8071/get_download_resu?work_id=ad854c895401a84cfcb32b1d46922a0b.csv HTTP/1.1" 200 84
+[2020-09-11 10:01:30,928] [base.py:93] [base:get_response] [WARNING]- Not Found: /download/ad854c895401a84cfcb32b1d46922a0b.csv
+[2020-09-11 10:01:30,929] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /download/ad854c895401a84cfcb32b1d46922a0b.csv HTTP/1.1" 404 119
+[2020-09-11 10:01:33,621] [base.py:93] [base:get_response] [WARNING]- Not Found: /download/ad854c895401a84cfcb32b1d46922a0b.csv
+[2020-09-11 10:01:33,622] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /download/ad854c895401a84cfcb32b1d46922a0b.csv HTTP/1.1" 404 119
+[2020-09-11 10:03:03,772] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_download_resu HTTP/1.1" 200 283456
+[2020-09-11 10:04:00,430] [base.py:93] [base:get_response] [WARNING]- Not Found: /ad854c895401a84cfcb32b1d46922a0b.csv
+[2020-09-11 10:04:00,430] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /ad854c895401a84cfcb32b1d46922a0b.csv HTTP/1.1" 404 110
+[2020-09-11 10:04:06,131] [base.py:93] [base:get_response] [WARNING]- Not Found: /ad854c895401a84cfcb32b1d46922a0b.csv
+[2020-09-11 10:04:06,131] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /ad854c895401a84cfcb32b1d46922a0b.csv HTTP/1.1" 404 110
+[2020-09-11 10:04:25,922] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 67
+[2020-09-11 10:05:05,434] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/download/31985d260ef0879977625c1eef75f357.csv HTTP/1.1" 200 283456
+[2020-09-11 10:05:43,720] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 81
+[2020-09-11 10:05:58,863] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/upload/d5a1b2d8-1a68-4c7f-8c5a-a98d318b7843.csv HTTP/1.1" 200 30599609
+[2020-09-11 10:05:59,356] [systen_unit.py:49] [systen_unit:is_good_file] [INFO]- [b51662e24e0c6797d1afd90ea24fef1b]:shape(300000, 5)csv列数量正确
+[2020-09-11 10:05:59,363] [view.py:56] [view:warn_realtion] [INFO]- [b51662e24e0c6797d1afd90ea24fef1b]:请求成功，任务开始启动
+[2020-09-11 10:05:59,364] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /warn_realtion HTTP/1.1" 200 132
+[2020-09-11 10:16:03,604] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/upload/d5a1b2d8-1a68-4c7f-8c5a-a98d318b7843.csv HTTP/1.1" 200 30599609
+[2020-09-11 10:16:04,126] [systen_unit.py:49] [systen_unit:is_good_file] [INFO]- [48711e95981fcd846e65f1cd9f77c33a]:shape(300000, 5)csv列数量正确
+[2020-09-11 10:16:04,140] [view.py:57] [view:warn_realtion] [INFO]- [48711e95981fcd846e65f1cd9f77c33a]:请求成功，任务开始启动
+[2020-09-11 10:16:04,141] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /warn_realtion HTTP/1.1" 200 213
+[2020-09-11 10:16:42,728] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/upload/d5a1b2d8-1a68-4c7f-8c5a-a98d318b7843.csv HTTP/1.1" 200 30599609
+[2020-09-11 10:16:43,167] [systen_unit.py:49] [systen_unit:is_good_file] [INFO]- [148377424588decc1230210105076960]:shape(300000, 5)csv列数量正确
+[2020-09-11 10:16:43,175] [view.py:57] [view:warn_realtion] [INFO]- [148377424588decc1230210105076960]:请求成功，任务开始启动
+[2020-09-11 10:16:43,176] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /warn_realtion HTTP/1.1" 200 226

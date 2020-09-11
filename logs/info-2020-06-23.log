@@ -1,0 +1,9 @@
+[2020-06-23 15:11:12,915] [view.py:64] [view:warn_realtion] [ERROR]- [1d0634ddab7c1196f7a3a87cb4039d37]:没有告警文件下载url，或者告警文件url不合法，下载地址为http://127.0.0.1:8071/static/upload/25f13639-3dd2-4295-9cc2-216c12cbc358.csv
+[2020-06-23 15:22:31,497] [systen_unit.py:49] [systen_unit:is_good_file] [INFO]- [6115af927706deb30bc867fdf64af491]:shape(300000, 5)csv列数量正确
+[2020-06-23 15:22:31,507] [view.py:52] [view:warn_realtion] [INFO]- [6115af927706deb30bc867fdf64af491]:请求成功，任务开始启动
+[2020-06-23 15:25:57,931] [systen_unit.py:49] [systen_unit:is_good_file] [INFO]- [177129003cc0d76f22d7449a639cb475]:shape(300000, 5)csv列数量正确
+[2020-06-23 15:25:57,946] [view.py:52] [view:warn_realtion] [INFO]- [177129003cc0d76f22d7449a639cb475]:请求成功，任务开始启动
+[2020-06-23 15:33:49,811] [systen_unit.py:49] [systen_unit:is_good_file] [INFO]- [ad854c895401a84cfcb32b1d46922a0b]:shape(300000, 5)csv列数量正确
+[2020-06-23 15:33:49,820] [view.py:52] [view:warn_realtion] [INFO]- [ad854c895401a84cfcb32b1d46922a0b]:请求成功，任务开始启动
+[2020-06-23 16:21:15,644] [systen_unit.py:49] [systen_unit:is_good_file] [INFO]- [31985d260ef0879977625c1eef75f357]:shape(300000, 5)csv列数量正确
+[2020-06-23 16:21:15,654] [view.py:51] [view:warn_realtion] [INFO]- [31985d260ef0879977625c1eef75f357]:请求成功，任务开始启动

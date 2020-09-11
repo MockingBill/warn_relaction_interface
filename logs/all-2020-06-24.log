@@ -1,0 +1,13 @@
+[2020-06-24 09:19:58,102] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_download_resu HTTP/1.1" 200 84
+[2020-06-24 09:20:14,870] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_download_resu HTTP/1.1" 200 283456
+[2020-06-24 09:21:57,421] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/download/31985d260ef0879977625c1eef75f357.csv HTTP/1.1" 200 283456
+[2020-06-24 10:07:12,144] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload_file HTTP/1.1" 200 133
+[2020-06-24 10:07:27,658] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/upload/d5a1b2d8-1a68-4c7f-8c5a-a98d318b7843.csv HTTP/1.1" 200 30599609
+[2020-06-24 10:07:28,159] [systen_unit.py:49] [systen_unit:is_good_file] [INFO]- [9a63a26c92fb53e5e265d2d92891bf9b]:shape(300000, 5)csv列数量正确
+[2020-06-24 10:07:28,167] [view.py:56] [view:warn_realtion] [INFO]- [9a63a26c92fb53e5e265d2d92891bf9b]:请求成功，任务开始启动
+[2020-06-24 10:07:28,168] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /warn_realtion HTTP/1.1" 200 132
+[2020-06-24 10:07:39,682] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 84
+[2020-06-24 10:07:57,921] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 84
+[2020-06-24 10:09:53,653] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 81
+[2020-06-24 10:09:55,977] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 81
+[2020-06-24 10:10:04,651] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_download_resu HTTP/1.1" 200 283456

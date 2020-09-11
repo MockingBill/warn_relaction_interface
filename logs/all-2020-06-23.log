@@ -1,0 +1,180 @@
+[2020-06-23 15:08:59,051] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 67
+[2020-06-23 15:09:24,669] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /upload_file
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/dengqian/PycharmProjects/warn_relaction_interface/warn_relaction_interface/view.py", line 216, in FileUp
+    handle_uploaded_file(myFile, file_name)
+  File "/Users/dengqian/PycharmProjects/warn_relaction_interface/warn_relaction_interface/view.py", line 202, in handle_uploaded_file
+    file_path=os.path.dirname(os.path.dirname(__file__)+os.esp+'static/upload')
+AttributeError: module 'os' has no attribute 'esp'
+[2020-06-23 15:09:24,695] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /upload_file HTTP/1.1" 500 27
+[2020-06-23 15:10:03,884] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload_file HTTP/1.1" 200 133
+[2020-06-23 15:11:12,913] [base.py:93] [base:get_response] [WARNING]- Not Found: /static/upload/25f13639-3dd2-4295-9cc2-216c12cbc358.csv
+[2020-06-23 15:11:12,914] [basehttp.py:124] [basehttp:log_message] [WARNING]- "GET /static/upload/25f13639-3dd2-4295-9cc2-216c12cbc358.csv HTTP/1.1" 404 128
+[2020-06-23 15:11:12,915] [view.py:64] [view:warn_realtion] [ERROR]- [1d0634ddab7c1196f7a3a87cb4039d37]:没有告警文件下载url，或者告警文件url不合法，下载地址为http://127.0.0.1:8071/static/upload/25f13639-3dd2-4295-9cc2-216c12cbc358.csv
+[2020-06-23 15:11:12,915] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /warn_realtion HTTP/1.1" 200 81
+[2020-06-23 15:11:49,631] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload_file HTTP/1.1" 200 133
+[2020-06-23 15:12:20,063] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload_file HTTP/1.1" 200 133
+[2020-06-23 15:15:58,962] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /upload_file
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/dengqian/PycharmProjects/warn_relaction_interface/warn_relaction_interface/view.py", line 218, in FileUp
+    handle_uploaded_file(myFile, file_name)
+  File "/Users/dengqian/PycharmProjects/warn_relaction_interface/warn_relaction_interface/view.py", line 205, in handle_uploaded_file
+    with open(file_path+ file_name, 'wb+') as destination:
+FileNotFoundError: [Errno 2] No such file or directory: 'warn_relaction_interface.urls/../static/uploadec6c8c4c-83d4-4afb-afa0-be096bc045ce.csv'
+[2020-06-23 15:15:58,975] [basehttp.py:124] [basehttp:log_message] [ERROR]- "POST /upload_file HTTP/1.1" 500 27
+[2020-06-23 15:17:13,471] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload_file HTTP/1.1" 200 133
+[2020-06-23 15:17:50,768] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload_file HTTP/1.1" 200 133
+[2020-06-23 15:18:27,216] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload_file HTTP/1.1" 200 133
+[2020-06-23 15:22:05,316] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/upload/29457136-7928-4c96-92d8-2c28cf379f49.csv HTTP/1.1" 200 30599609
+[2020-06-23 15:22:31,022] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/upload/29457136-7928-4c96-92d8-2c28cf379f49.csv HTTP/1.1" 200 30599609
+[2020-06-23 15:22:31,497] [systen_unit.py:49] [systen_unit:is_good_file] [INFO]- [6115af927706deb30bc867fdf64af491]:shape(300000, 5)csv列数量正确
+[2020-06-23 15:22:31,507] [view.py:52] [view:warn_realtion] [INFO]- [6115af927706deb30bc867fdf64af491]:请求成功，任务开始启动
+[2020-06-23 15:22:31,507] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /warn_realtion HTTP/1.1" 200 132
+[2020-06-23 15:22:44,511] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:22:46,244] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:22:46,976] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:22:47,582] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:22:48,261] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:22:48,899] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:22:49,563] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:22:50,074] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:22:50,743] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:22:51,465] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:22:52,233] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:22:52,913] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:22:53,694] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:22:54,618] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:22:55,570] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:22:56,283] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:23:07,373] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:23:08,288] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:23:09,472] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:23:10,418] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:23:11,197] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:23:12,418] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:23:13,109] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:23:15,470] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:23:16,358] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:23:17,781] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:23:18,987] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:23:25,699] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:23:26,549] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:23:28,043] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:23:29,478] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:23:47,277] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:23:47,979] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:23:58,084] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 81
+[2020-06-23 15:23:59,523] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 81
+[2020-06-23 15:24:04,751] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 81
+[2020-06-23 15:24:14,550] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 81
+[2020-06-23 15:24:38,110] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_download_resu HTTP/1.1" 200 84
+[2020-06-23 15:24:50,918] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_download_resu HTTP/1.1" 200 84
+[2020-06-23 15:25:57,492] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/upload/29457136-7928-4c96-92d8-2c28cf379f49.csv HTTP/1.1" 200 30599609
+[2020-06-23 15:25:57,931] [systen_unit.py:49] [systen_unit:is_good_file] [INFO]- [177129003cc0d76f22d7449a639cb475]:shape(300000, 5)csv列数量正确
+[2020-06-23 15:25:57,946] [view.py:52] [view:warn_realtion] [INFO]- [177129003cc0d76f22d7449a639cb475]:请求成功，任务开始启动
+[2020-06-23 15:25:57,946] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /warn_realtion HTTP/1.1" 200 132
+[2020-06-23 15:26:03,920] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 85
+[2020-06-23 15:26:05,084] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 85
+[2020-06-23 15:26:05,961] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 85
+[2020-06-23 15:26:14,953] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:26:28,354] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:26:29,065] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:26:35,295] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:26:36,125] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:26:38,138] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:26:39,338] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:26:40,435] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:26:41,520] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:26:42,561] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:26:43,360] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:26:43,944] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:26:44,635] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:26:45,148] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:26:45,815] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:26:46,506] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:26:47,011] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:26:47,752] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:26:48,214] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:26:48,956] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:26:49,643] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:26:50,148] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:26:51,264] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:26:52,832] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:27:19,576] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:27:20,343] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:27:25,149] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 85
+[2020-06-23 15:27:26,287] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 85
+[2020-06-23 15:27:27,975] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 85
+[2020-06-23 15:27:31,535] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 85
+[2020-06-23 15:27:32,365] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 85
+[2020-06-23 15:27:33,300] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 85
+[2020-06-23 15:27:36,956] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 85
+[2020-06-23 15:27:40,605] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 85
+[2020-06-23 15:27:41,644] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 85
+[2020-06-23 15:27:43,791] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 85
+[2020-06-23 15:27:44,747] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 85
+[2020-06-23 15:27:51,513] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 85
+[2020-06-23 15:27:53,070] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 85
+[2020-06-23 15:28:02,732] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 85
+[2020-06-23 15:28:03,465] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 85
+[2020-06-23 15:28:20,741] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 85
+[2020-06-23 15:28:21,563] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 85
+[2020-06-23 15:28:22,564] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 85
+[2020-06-23 15:28:23,462] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 85
+[2020-06-23 15:28:24,799] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 85
+[2020-06-23 15:28:26,761] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 85
+[2020-06-23 15:28:27,885] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 85
+[2020-06-23 15:28:41,195] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 85
+[2020-06-23 15:28:42,151] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 85
+[2020-06-23 15:28:47,051] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 85
+[2020-06-23 15:33:49,304] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/upload/29457136-7928-4c96-92d8-2c28cf379f49.csv HTTP/1.1" 200 30599609
+[2020-06-23 15:33:49,811] [systen_unit.py:49] [systen_unit:is_good_file] [INFO]- [ad854c895401a84cfcb32b1d46922a0b]:shape(300000, 5)csv列数量正确
+[2020-06-23 15:33:49,820] [view.py:52] [view:warn_realtion] [INFO]- [ad854c895401a84cfcb32b1d46922a0b]:请求成功，任务开始启动
+[2020-06-23 15:33:49,821] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /warn_realtion HTTP/1.1" 200 132
+[2020-06-23 15:33:53,469] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 85
+[2020-06-23 15:34:00,630] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:34:03,547] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:34:04,380] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:34:05,192] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:34:05,952] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:34:12,776] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:34:13,658] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:34:14,410] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:34:15,239] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:34:16,017] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:34:16,666] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:34:17,263] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:34:17,814] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:34:18,377] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:34:19,164] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:34:19,614] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:34:20,294] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 15:34:20,922] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:34:21,552] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:34:22,216] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 86
+[2020-06-23 15:35:34,669] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 81
+[2020-06-23 15:35:50,230] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_download_resu HTTP/1.1" 200 283456
+[2020-06-23 16:21:14,999] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/upload/29457136-7928-4c96-92d8-2c28cf379f49.csv HTTP/1.1" 200 30599609
+[2020-06-23 16:21:15,644] [systen_unit.py:49] [systen_unit:is_good_file] [INFO]- [31985d260ef0879977625c1eef75f357]:shape(300000, 5)csv列数量正确
+[2020-06-23 16:21:15,654] [view.py:51] [view:warn_realtion] [INFO]- [31985d260ef0879977625c1eef75f357]:请求成功，任务开始启动
+[2020-06-23 16:21:15,655] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /warn_realtion HTTP/1.1" 200 132
+[2020-06-23 16:21:23,720] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 82
+[2020-06-23 16:22:39,076] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 81
+[2020-06-23 16:22:48,792] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_download_resu HTTP/1.1" 200 283456
+[2020-06-23 16:22:51,857] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload_file HTTP/1.1" 200 133
+[2020-06-23 16:48:48,282] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload_file HTTP/1.1" 200 133
+[2020-06-23 16:58:37,082] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload_file_warn HTTP/1.1" 200 133
+[2020-06-23 17:05:10,579] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload_file_warn HTTP/1.1" 200 133
+[2020-06-23 17:05:26,082] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload_file_1212 HTTP/1.1" 200 133

@@ -1,0 +1,1723 @@
+rule,support
+AU_LOP B1_SD,0.0011261261261261261
+Announce报文丢失 PTP端口劣化告警,0.0037537537537537537
+Announce报文丢失 时间失锁,0.0043972543972543975
+BBU光模块收发异常告警 BBU CPRI接口异常告警,0.001018876018876019
+[衍生告警]BBU光模块收发异常告警 BBU CPRI接口异常告警,0.001018876018876019
+BBU IR光模块收发异常告警 [衍生告警]BBU IR光模块收发异常告警,0.0012333762333762333
+[衍生告警]BBU光模块收发异常告警 BBU光模块收发异常告警,0.0044508794508794506
+射频单元维护链路异常告警 BBU光模块收发异常告警,0.0027885027885027887
+LP_RDI_VC12 BIP_EXC,0.0013942513942513943
+LP_SLM_VC12 BIP_EXC,0.001716001716001716
+DYING_GASP RX_POWER_LOW_ALARM,0.0023058773058773057
+MPLS_TUNNEL_LOCV ETH_APS_LOST,0.0023595023595023596
+TUNNEL_APS_DEGRADED ETH_APS_LOST,0.002627627627627628
+ETH_LINK_DOWN ETH_LOS,0.0044508794508794506
+ETH_LINK_DOWN OTU2_DEG,0.0018768768768768769
+R_LOS ETH_LINK_DOWN,0.0014478764478764478
+PTP_SOURCE_SWITCH ETH_LOS,0.001287001287001287
+S1_SYN_CHANGE ETH_LOS,0.001018876018876019
+ETH_LOS SSM_PKT_LOS,0.0013406263406263406
+TIME_NO_TRACE_MODE ETH_LOS,0.0010725010725010724
+ETH_T_FLOW_OVER_GEN ETH_R_FLOW_OVER_GEN,0.001716001716001716
+ETH_T_FLOW_OVER_GEN ETH_R_FLOW_OVER_SRS,0.0010725010725010724
+ETH_T_FLOW_OVER_WRN ETH_R_FLOW_OVER_WRN,0.0013406263406263406
+GEM信道丢失(LCDGi) 分支光纤断或OLT检测不到ONT的预期的光信号(LOSi/LOBi),0.0013406263406263406
+GE交换板与业务单板GE链路故障告警 单板不可用告警,0.0010725010725010724
+INACT LEVELLO,0.0016623766623766623
+S1ap链路故障 IP NS-VC链路故障,0.012226512226512226
+[衍生告警]IP NS-VC链路故障频次关联 IP NS-VC链路故障,0.007132132132132132
+IP NSE全阻 IP NSVC不可用,0.0015015015015015015
+IP NSE全阻 eNodeB断链告警,0.0016623766623766623
+IP NSVC不可用 eNodeB断链告警,0.002145002145002145
+IP NSVC不可用 偶联通路断,0.001287001287001287
+VCG LOS告警 LFD(Loss Of Frame Delineation)告警,0.007775632775632775
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警,0.007561132561132561
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警,0.001287001287001287
+LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警,0.0033783783783783786
+不可用秒开始(UAS) LFD(Loss Of Frame Delineation)告警,0.0044508794508794506
+告警指示信号(LP-AIS) LFD(Loss Of Frame Delineation)告警,0.0020913770913770914
+增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.0043972543972543975
+指针丢失(LP-LOP) LFD(Loss Of Frame Delineation)告警,0.0043972543972543975
+误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警,0.0044508794508794506
+LINK_LOSS LOAM_LOS,0.0021986271986271988
+LINK_LOSS ONU_LOF,0.0013942513942513943
+LINK_LOSS SD,0.001287001287001287
+UP_CRC_RATIO_ OVER_THRESHOLD LINK_LOSS,0.005684255684255684
+LP_RDI_VC12 LP_SLM_VC12,0.0014478764478764478
+VCAT_LOM_VC12 LP_REI_VC12,0.0023595023595023596
+MPLS_PW_LOCV PWAPS_LOST,0.0012333762333762333
+PW_APS_DEGRADED MPLS_PW_LOCV,0.0013406263406263406
+TUNNEL_APS_DEGRADED MPLS_TUNNEL_LOCV,0.003271128271128271
+R_LOS MS_RDI,0.0028957528957528956
+NSE下无可用NS-VC [衍生告警]NSE下无可用NS-VC频次关联,0.00563063063063063
+ODU0_PM_LCK ODU0_LOFLOM,0.0013406263406263406
+ODU0_PM_OCI ODU0_LOFLOM,0.0018768768768768769
+ODU2_PM_DEG ODU0_LOFLOM,0.0016087516087516086
+ODU0_PM_LCK ODU0_PM_OCI,0.002574002574002574
+ODU0_PM_LCK ODU2_PM_DEG,0.0016623766623766623
+ODU0_PM_OCI ODU0_PM_SSF,0.0011797511797511798
+ODU0_PM_OCI ODU2_PM_DEG,0.0023058773058773057
+ODU2_PM_LCK ODU0_PM_OCI,0.001018876018876019
+OTUk OTU层SM段DEG告警 ODUk ODU层PM段DEG告警,0.0010725010725010724
+PTP_SOURCE_SWITCH PTPSRC_CLKCLS_DEC,0.0017696267696267697
+PTP_SOURCE_SWITCH PTP_PKT_LOS,0.0011797511797511798
+PTP_SOURCE_SWITCH S1_SYN_CHANGE,0.0016623766623766623
+TIME_LOCK_FAIL PTP_SOURCE_SWITCH,0.002145002145002145
+TIME_NO_TRACE_MODE PTP_SOURCE_SWITCH,0.006220506220506221
+时间失锁 PTP端口劣化告警,0.003592878592878593
+时间端口 PTP端口announce报文接收异常 PTP节点 PTP输入劣化,0.0015551265551265552
+PTP节点 PTP输入劣化 时间端口 sync报文丢失,0.0015015015015015015
+PW_APS_DEGRADED PWAPS_LOST,0.001018876018876019
+RX_POWER_HIGH_ALARM RX_POWER_LOW_ALARM,0.00858000858000858
+RX_POWER_HIGH_ALARM TX_POWER_HIGH_ALARM,0.0064886314886314885
+RX_POWER_LOW_ALARM TEMP_HIGH_ALARM,0.0034856284856284855
+RX_POWER_LOW_ALARM TX_POWER_HIGH_ALARM,0.017964392964392964
+RX_POWER_LOW_ALARM VCC_HIGH_ALARM,0.0016623766623766623
+S1ap链路故障 [衍生告警]IP NS-VC链路故障频次关联,0.003592878592878593
+X2接口故障告警 SCTP链路故障告警,0.0222007722007722
+SCTP链路故障告警 用户面承载链路故障告警,0.0075075075075075074
+VCC_HIGH_ALARM TEMP_HIGH_ALARM,0.0015551265551265552
+VCG LOS告警 VCG端口宿端丢失全部容量,0.009116259116259117
+VCG LOS告警 VCG端口宿端丢失部分容量,0.001716001716001716
+VCG LOS告警 VCG端口源端丢失全部容量,0.00487987987987988
+VCG LOS告警 VCG端口源端丢失部分容量,0.004826254826254826
+VCG LOS告警 不可用秒开始(UAS),0.006166881166881167
+VCG LOS告警 告警指示信号(LP-AIS),0.002842127842127842
+VCG LOS告警 增强型远端服务缺陷指示（ERDI-S）,0.006113256113256113
+VCG LOS告警 增强型远端连接缺陷指示,0.0012333762333762333
+VCG LOS告警 指针丢失(LP-LOP),0.006113256113256113
+VCG LOS告警 误码率越限(LP-EXC),0.006166881166881167
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 VCG端口源端丢失全部容量,0.00487987987987988
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量,0.004719004719004719
+VCG端口宿端丢失全部容量 不可用秒开始(UAS),0.006006006006006006
+VCG端口宿端丢失全部容量 告警指示信号(LP-AIS),0.002842127842127842
+VCG端口宿端丢失全部容量 增强型远端服务缺陷指示（ERDI-S）,0.005952380952380952
+VCG端口宿端丢失全部容量 增强型远端连接缺陷指示,0.0012333762333762333
+VCG端口宿端丢失全部容量 指针丢失(LP-LOP),0.005952380952380952
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC),0.006006006006006006
+VCG端口宿端丢失部分容量 VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量,0.0013406263406263406
+VCG端口宿端丢失部分容量 不可用秒开始(UAS),0.001716001716001716
+VCG端口宿端丢失部分容量 告警指示信号(LP-AIS),0.0010725010725010724
+VCG端口宿端丢失部分容量 增强型远端服务缺陷指示（ERDI-S）,0.001716001716001716
+VCG端口宿端丢失部分容量 指针丢失(LP-LOP),0.001716001716001716
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC),0.001716001716001716
+VCG端口源端丢失部分容量 VCG端口源端丢失全部容量,0.003914628914628915
+不可用秒开始(UAS) VCG端口源端丢失全部容量,0.004933504933504933
+告警指示信号(LP-AIS) VCG端口源端丢失全部容量,0.0023058773058773057
+增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.004933504933504933
+指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.004933504933504933
+误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.004933504933504933
+VCG端口源端丢失部分容量 不可用秒开始(UAS),0.004826254826254826
+VCG端口源端丢失部分容量 告警指示信号(LP-AIS),0.0023058773058773057
+VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S）,0.004826254826254826
+VCG端口源端丢失部分容量 指针丢失(LP-LOP),0.004826254826254826
+VCG端口源端丢失部分容量 误码率越限(LP-EXC),0.004826254826254826
+X2接口故障告警 用户面承载链路故障告警,0.008151008151008152
+[GPON ONU告警]以太网用户口信号丢失告警 [GPON告警]以太网用户端口环回,0.0019305019305019305
+[GPON ONU告警]以太网用户口信号丢失告警 [GPON告警]接收光功率高于阈值告警,0.00487987987987988
+[GPON告警]ONU信号失效(SF) [GPON告警]信号劣化(SD),0.0017696267696267697
+[GPON告警]发送光功率高于阈值告警 [GPON告警]PON信号丢失,0.0010725010725010724
+[GPON告警]以太网用户端口环回 [GPON告警]接收光功率低于阈值告警,0.0011261261261261261
+[衍生告警]:黔西洪家渡B-5-OIB1D-2至黔西化石B-5-OIB1D-2线路紧急告警[衰耗] 信号劣化(RS-SD),0.0018232518232518232
+[衍生告警]:黔西洪家渡B-5-OIB1D-2至黔西化石B-5-OIB1D-2线路紧急告警[衰耗] 定时输入丢失,0.0028957528957528956
+[衍生告警]:黔西洪家渡B-5-OIB1D-2至黔西化石B-5-OIB1D-2线路紧急告警[衰耗] 帧丢失(LOF),0.0027885027885027887
+[衍生告警]:黔西洪家渡B-5-OIB1D-2至黔西化石B-5-OIB1D-2线路紧急告警[衰耗] 帧失步(OOF),0.0012333762333762333
+射频单元维护链路异常告警 [衍生告警]BBU光模块收发异常告警,0.0027885027885027887
+[衍生告警]时钟参考源异常告警 时钟参考源异常告警,0.0016087516087516086
+[衍生告警]时钟参考源异常告警 星卡锁星不足告警,0.001018876018876019
+eNodeB断链告警 eNodeB ID冲突,0.002574002574002574
+偶联通路断 eNodeB ID冲突,0.001287001287001287
+eNodeB断链告警 偶联通路断,0.0033783783783783786
+以太光口接收信号丢失 上行以太端口连线故障或端口状态异常,0.0011261261261261261
+告警指示信号(LP-AIS) 不可用秒开始(UAS),0.003271128271128271
+增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.006166881166881167
+增强型远端连接缺陷指示 不可用秒开始(UAS),0.0012333762333762333
+指针丢失(LP-LOP) 不可用秒开始(UAS),0.006166881166881167
+误码率越限(LP-EXC) 不可用秒开始(UAS),0.006220506220506221
+单板和归属模块之间的控制面通讯异常 主备单板通信链路断,0.0033783783783783786
+信号劣化(RS-SD) 定时输入丢失,0.002413127413127413
+信号劣化(RS-SD) 帧丢失(LOF),0.0021986271986271988
+信号劣化(RS-SD) 帧失步(OOF),0.0016623766623766623
+偶联断链 偶联通路断,0.0029493779493779495
+光口支路单元告警指示信号告警 光口支路告警指示信号告警,0.004987129987129987
+告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.0028957528957528956
+指针丢失(LP-LOP) 告警指示信号(LP-AIS),0.0028957528957528956
+告警指示信号(LP-AIS) 误码率越限(LP-EXC),0.0028957528957528956
+告警指示信号(LP-AIS) 远端缺陷指示(LP-RDI),0.006113256113256113
+增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S）,0.0012333762333762333
+指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S）,0.006166881166881167
+增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC),0.006166881166881167
+指针丢失(LP-LOP) 增强型远端连接缺陷指示,0.0012333762333762333
+增强型远端连接缺陷指示 误码率越限(LP-EXC),0.0012333762333762333
+指针丢失(AU-LOP) 复帧丢失(TU-LOM),0.0021986271986271988
+定时输入丢失 帧丢失(LOF),0.0035392535392535394
+帧失步(OOF) 定时输入丢失,0.0015551265551265552
+射频单元维护链路异常告警 射频单元业务不可用告警,0.002842127842127842
+射频单元直流掉电告警 射频单元维护链路异常告警,0.001018876018876019
+帧失步(OOF) 帧丢失(LOF),0.0014478764478764478
+指针丢失(LP-LOP) 误码率越限(LP-EXC),0.006166881166881167
+星卡锁星不足告警 时钟参考源异常告警,0.0011261261261261261
+时间端口 Delay_Resp报文丢失 时间端口 sync报文丢失,0.0021986271986271988
+时间端口 PTP端口announce报文接收异常 时间端口 sync报文丢失,0.003432003432003432
+背板 不可用秒开始(UAS) 背板 信号劣化(SD),0.006327756327756328
+Announce报文丢失 时间失锁 PTP端口劣化告警,0.003432003432003432
+BBU光模块收发异常告警 [衍生告警]BBU光模块收发异常告警 BBU CPRI接口异常告警,0.001018876018876019
+射频单元维护链路异常告警 [衍生告警]BBU光模块收发异常告警 BBU光模块收发异常告警,0.002627627627627628
+LP_RDI_VC12 LP_SLM_VC12 BIP_EXC,0.001018876018876019
+TUNNEL_APS_DEGRADED MPLS_TUNNEL_LOCV ETH_APS_LOST,0.0018232518232518232
+S1ap链路故障 [衍生告警]IP NS-VC链路故障频次关联 IP NS-VC链路故障,0.003592878592878593
+IP NSE全阻 IP NSVC不可用 eNodeB断链告警,0.0011797511797511798
+IP NSVC不可用 eNodeB断链告警 偶联通路断,0.001018876018876019
+VCG LOS告警 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警,0.0075075075075075074
+VCG LOS告警 VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警,0.001287001287001287
+VCG LOS告警 LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0036465036465036463
+VCG LOS告警 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警,0.0033783783783783786
+VCG LOS告警 不可用秒开始(UAS) LFD(Loss Of Frame Delineation)告警,0.0044508794508794506
+VCG LOS告警 告警指示信号(LP-AIS) LFD(Loss Of Frame Delineation)告警,0.0020913770913770914
+VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.0043972543972543975
+VCG LOS告警 指针丢失(LP-LOP) LFD(Loss Of Frame Delineation)告警,0.0043972543972543975
+VCG LOS告警 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警,0.0044508794508794506
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警,0.001287001287001287
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警,0.0033247533247533247
+VCG端口宿端丢失全部容量 不可用秒开始(UAS) LFD(Loss Of Frame Delineation)告警,0.0043972543972543975
+VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) LFD(Loss Of Frame Delineation)告警,0.0020913770913770914
+VCG端口宿端丢失全部容量 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.004343629343629344
+VCG端口宿端丢失全部容量 指针丢失(LP-LOP) LFD(Loss Of Frame Delineation)告警,0.004343629343629344
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警,0.0043972543972543975
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警,0.0010725010725010724
+VCG端口宿端丢失部分容量 不可用秒开始(UAS) LFD(Loss Of Frame Delineation)告警,0.001287001287001287
+VCG端口宿端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.001287001287001287
+VCG端口宿端丢失部分容量 指针丢失(LP-LOP) LFD(Loss Of Frame Delineation)告警,0.001287001287001287
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警,0.001287001287001287
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.002842127842127842
+不可用秒开始(UAS) LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0036465036465036463
+告警指示信号(LP-AIS) LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0016623766623766623
+增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0036465036465036463
+指针丢失(LP-LOP) LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0036465036465036463
+误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口源端丢失部分容量 不可用秒开始(UAS) LFD(Loss Of Frame Delineation)告警,0.0033783783783783786
+VCG端口源端丢失部分容量 告警指示信号(LP-AIS) LFD(Loss Of Frame Delineation)告警,0.001716001716001716
+VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.0033783783783783786
+VCG端口源端丢失部分容量 指针丢失(LP-LOP) LFD(Loss Of Frame Delineation)告警,0.0033783783783783786
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警,0.0033783783783783786
+告警指示信号(LP-AIS) 不可用秒开始(UAS) LFD(Loss Of Frame Delineation)告警,0.0020913770913770914
+不可用秒开始(UAS) 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.0043972543972543975
+指针丢失(LP-LOP) 不可用秒开始(UAS) LFD(Loss Of Frame Delineation)告警,0.0043972543972543975
+不可用秒开始(UAS) 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警,0.0044508794508794506
+告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.0020913770913770914
+指针丢失(LP-LOP) 告警指示信号(LP-AIS) LFD(Loss Of Frame Delineation)告警,0.0020913770913770914
+告警指示信号(LP-AIS) 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警,0.0020913770913770914
+指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.0043972543972543975
+误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.0043972543972543975
+指针丢失(LP-LOP) 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警,0.0043972543972543975
+ODU0_PM_LCK ODU0_PM_OCI ODU0_LOFLOM,0.0012333762333762333
+ODU0_PM_LCK ODU2_PM_DEG ODU0_LOFLOM,0.001018876018876019
+ODU2_PM_DEG ODU0_PM_OCI ODU0_LOFLOM,0.0014478764478764478
+ODU0_PM_LCK ODU0_PM_OCI ODU2_PM_DEG,0.0016087516087516086
+RX_POWER_HIGH_ALARM RX_POWER_LOW_ALARM TX_POWER_HIGH_ALARM,0.005523380523380523
+RX_POWER_LOW_ALARM VCC_HIGH_ALARM TEMP_HIGH_ALARM,0.0015015015015015015
+X2接口故障告警 SCTP链路故障告警 用户面承载链路故障告警,0.0030566280566280564
+VCG LOS告警 VCG端口宿端丢失全部容量 VCG端口宿端丢失部分容量,0.0016623766623766623
+VCG LOS告警 VCG端口宿端丢失全部容量 VCG端口源端丢失全部容量,0.004826254826254826
+VCG LOS告警 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量,0.004719004719004719
+VCG LOS告警 VCG端口宿端丢失全部容量 不可用秒开始(UAS),0.005952380952380952
+VCG LOS告警 VCG端口宿端丢失全部容量 告警指示信号(LP-AIS),0.0027885027885027887
+VCG LOS告警 VCG端口宿端丢失全部容量 增强型远端服务缺陷指示（ERDI-S）,0.005898755898755899
+VCG LOS告警 VCG端口宿端丢失全部容量 增强型远端连接缺陷指示,0.0012333762333762333
+VCG LOS告警 VCG端口宿端丢失全部容量 指针丢失(LP-LOP),0.005898755898755899
+VCG LOS告警 VCG端口宿端丢失全部容量 误码率越限(LP-EXC),0.005952380952380952
+VCG LOS告警 VCG端口宿端丢失部分容量 VCG端口源端丢失全部容量,0.001287001287001287
+VCG LOS告警 VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量,0.0013406263406263406
+VCG LOS告警 VCG端口宿端丢失部分容量 不可用秒开始(UAS),0.001716001716001716
+VCG LOS告警 VCG端口宿端丢失部分容量 告警指示信号(LP-AIS),0.0010725010725010724
+VCG LOS告警 VCG端口宿端丢失部分容量 增强型远端服务缺陷指示（ERDI-S）,0.001716001716001716
+VCG LOS告警 VCG端口宿端丢失部分容量 指针丢失(LP-LOP),0.001716001716001716
+VCG LOS告警 VCG端口宿端丢失部分容量 误码率越限(LP-EXC),0.001716001716001716
+VCG LOS告警 VCG端口源端丢失部分容量 VCG端口源端丢失全部容量,0.003914628914628915
+VCG LOS告警 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.00487987987987988
+VCG LOS告警 告警指示信号(LP-AIS) VCG端口源端丢失全部容量,0.0022522522522522522
+VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.00487987987987988
+VCG LOS告警 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.00487987987987988
+VCG LOS告警 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.00487987987987988
+VCG LOS告警 VCG端口源端丢失部分容量 不可用秒开始(UAS),0.004826254826254826
+VCG LOS告警 VCG端口源端丢失部分容量 告警指示信号(LP-AIS),0.0023058773058773057
+VCG LOS告警 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S）,0.004826254826254826
+VCG LOS告警 VCG端口源端丢失部分容量 指针丢失(LP-LOP),0.004826254826254826
+VCG LOS告警 VCG端口源端丢失部分容量 误码率越限(LP-EXC),0.004826254826254826
+VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.002842127842127842
+VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.006113256113256113
+VCG LOS告警 增强型远端连接缺陷指示 不可用秒开始(UAS),0.0012333762333762333
+VCG LOS告警 指针丢失(LP-LOP) 不可用秒开始(UAS),0.006113256113256113
+VCG LOS告警 误码率越限(LP-EXC) 不可用秒开始(UAS),0.006166881166881167
+VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.002842127842127842
+VCG LOS告警 指针丢失(LP-LOP) 告警指示信号(LP-AIS),0.002842127842127842
+VCG LOS告警 告警指示信号(LP-AIS) 误码率越限(LP-EXC),0.002842127842127842
+VCG LOS告警 增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S）,0.0012333762333762333
+VCG LOS告警 指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S）,0.006113256113256113
+VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC),0.006113256113256113
+VCG LOS告警 指针丢失(LP-LOP) 增强型远端连接缺陷指示,0.0012333762333762333
+VCG LOS告警 增强型远端连接缺陷指示 误码率越限(LP-EXC),0.0012333762333762333
+VCG LOS告警 指针丢失(LP-LOP) 误码率越限(LP-EXC),0.006113256113256113
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量,0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 不可用秒开始(UAS),0.0016623766623766623
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 告警指示信号(LP-AIS),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 增强型远端服务缺陷指示（ERDI-S）,0.0016623766623766623
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 指针丢失(LP-LOP),0.0016623766623766623
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC),0.0016623766623766623
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.00487987987987988
+VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) VCG端口源端丢失全部容量,0.0023058773058773057
+VCG端口宿端丢失全部容量 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.00487987987987988
+VCG端口宿端丢失全部容量 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.00487987987987988
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.00487987987987988
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 不可用秒开始(UAS),0.004719004719004719
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 告警指示信号(LP-AIS),0.0023058773058773057
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S）,0.004719004719004719
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 指针丢失(LP-LOP),0.004719004719004719
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC),0.004719004719004719
+VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.002842127842127842
+VCG端口宿端丢失全部容量 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.005952380952380952
+VCG端口宿端丢失全部容量 增强型远端连接缺陷指示 不可用秒开始(UAS),0.0012333762333762333
+VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 不可用秒开始(UAS),0.005952380952380952
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 不可用秒开始(UAS),0.006006006006006006
+VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.002842127842127842
+VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 告警指示信号(LP-AIS),0.002842127842127842
+VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) 误码率越限(LP-EXC),0.002842127842127842
+VCG端口宿端丢失全部容量 增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S）,0.0012333762333762333
+VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S）,0.005952380952380952
+VCG端口宿端丢失全部容量 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC),0.005952380952380952
+VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 增强型远端连接缺陷指示,0.0012333762333762333
+VCG端口宿端丢失全部容量 增强型远端连接缺陷指示 误码率越限(LP-EXC),0.0012333762333762333
+VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 误码率越限(LP-EXC),0.005952380952380952
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 不可用秒开始(UAS),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S）,0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 指针丢失(LP-LOP),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC),0.0013406263406263406
+VCG端口宿端丢失部分容量 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.001716001716001716
+VCG端口宿端丢失部分容量 指针丢失(LP-LOP) 不可用秒开始(UAS),0.001716001716001716
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) 不可用秒开始(UAS),0.001716001716001716
+VCG端口宿端丢失部分容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.0010725010725010724
+VCG端口宿端丢失部分容量 指针丢失(LP-LOP) 告警指示信号(LP-AIS),0.0010725010725010724
+VCG端口宿端丢失部分容量 告警指示信号(LP-AIS) 误码率越限(LP-EXC),0.0010725010725010724
+VCG端口宿端丢失部分容量 指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S）,0.001716001716001716
+VCG端口宿端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC),0.001716001716001716
+VCG端口宿端丢失部分容量 指针丢失(LP-LOP) 误码率越限(LP-EXC),0.001716001716001716
+VCG端口源端丢失部分容量 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.003914628914628915
+VCG端口源端丢失部分容量 告警指示信号(LP-AIS) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.003914628914628915
+VCG端口源端丢失部分容量 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.003914628914628915
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.003914628914628915
+告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0023058773058773057
+增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.004933504933504933
+指针丢失(LP-LOP) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.004933504933504933
+误码率越限(LP-EXC) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.004933504933504933
+告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0023058773058773057
+指针丢失(LP-LOP) 告警指示信号(LP-AIS) VCG端口源端丢失全部容量,0.0023058773058773057
+告警指示信号(LP-AIS) 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.0023058773058773057
+指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.004933504933504933
+增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.004933504933504933
+指针丢失(LP-LOP) 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.004933504933504933
+VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.0023058773058773057
+VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.004826254826254826
+VCG端口源端丢失部分容量 指针丢失(LP-LOP) 不可用秒开始(UAS),0.004826254826254826
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) 不可用秒开始(UAS),0.004826254826254826
+VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.0023058773058773057
+VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 指针丢失(LP-LOP),0.0023058773058773057
+VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 误码率越限(LP-EXC),0.0023058773058773057
+VCG端口源端丢失部分容量 指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S）,0.004826254826254826
+VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC),0.004826254826254826
+VCG端口源端丢失部分容量 指针丢失(LP-LOP) 误码率越限(LP-EXC),0.004826254826254826
+[衍生告警]:黔西洪家渡B-5-OIB1D-2至黔西化石B-5-OIB1D-2线路紧急告警[衰耗] 信号劣化(RS-SD) 定时输入丢失,0.0016623766623766623
+[衍生告警]:黔西洪家渡B-5-OIB1D-2至黔西化石B-5-OIB1D-2线路紧急告警[衰耗] 信号劣化(RS-SD) 帧丢失(LOF),0.0015551265551265552
+[衍生告警]:黔西洪家渡B-5-OIB1D-2至黔西化石B-5-OIB1D-2线路紧急告警[衰耗] 信号劣化(RS-SD) 帧失步(OOF),0.0011261261261261261
+[衍生告警]:黔西洪家渡B-5-OIB1D-2至黔西化石B-5-OIB1D-2线路紧急告警[衰耗] 定时输入丢失 帧丢失(LOF),0.0027348777348777348
+[衍生告警]:黔西洪家渡B-5-OIB1D-2至黔西化石B-5-OIB1D-2线路紧急告警[衰耗] 帧失步(OOF) 定时输入丢失,0.0011261261261261261
+[衍生告警]:黔西洪家渡B-5-OIB1D-2至黔西化石B-5-OIB1D-2线路紧急告警[衰耗] 帧失步(OOF) 帧丢失(LOF),0.0010725010725010724
+[衍生告警]时钟参考源异常告警 星卡锁星不足告警 时钟参考源异常告警,0.001018876018876019
+eNodeB断链告警 偶联通路断 eNodeB ID冲突,0.0011797511797511798
+告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0028957528957528956
+指针丢失(LP-LOP) 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.0028957528957528956
+告警指示信号(LP-AIS) 误码率越限(LP-EXC) 不可用秒开始(UAS),0.0028957528957528956
+增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0012333762333762333
+指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.006166881166881167
+误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.006166881166881167
+指针丢失(LP-LOP) 增强型远端连接缺陷指示 不可用秒开始(UAS),0.0012333762333762333
+增强型远端连接缺陷指示 误码率越限(LP-EXC) 不可用秒开始(UAS),0.0012333762333762333
+指针丢失(LP-LOP) 误码率越限(LP-EXC) 不可用秒开始(UAS),0.006166881166881167
+信号劣化(RS-SD) 定时输入丢失 帧丢失(LOF),0.0020913770913770914
+信号劣化(RS-SD) 帧失步(OOF) 定时输入丢失,0.0013942513942513943
+信号劣化(RS-SD) 帧失步(OOF) 帧丢失(LOF),0.001287001287001287
+指针丢失(LP-LOP) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.0028957528957528956
+告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC),0.0028957528957528956
+指针丢失(LP-LOP) 告警指示信号(LP-AIS) 误码率越限(LP-EXC),0.0028957528957528956
+指针丢失(LP-LOP) 增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S）,0.0012333762333762333
+增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC),0.0012333762333762333
+指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC),0.006166881166881167
+指针丢失(LP-LOP) 增强型远端连接缺陷指示 误码率越限(LP-EXC),0.0012333762333762333
+帧失步(OOF) 定时输入丢失 帧丢失(LOF),0.0013406263406263406
+VCG LOS告警 VCG端口宿端丢失全部容量 VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警,0.001287001287001287
+VCG LOS告警 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0036465036465036463
+VCG LOS告警 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警,0.0033247533247533247
+VCG LOS告警 VCG端口宿端丢失全部容量 不可用秒开始(UAS) LFD(Loss Of Frame Delineation)告警,0.0043972543972543975
+VCG LOS告警 VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) LFD(Loss Of Frame Delineation)告警,0.0020913770913770914
+VCG LOS告警 VCG端口宿端丢失全部容量 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.004343629343629344
+VCG LOS告警 VCG端口宿端丢失全部容量 指针丢失(LP-LOP) LFD(Loss Of Frame Delineation)告警,0.004343629343629344
+VCG LOS告警 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警,0.0043972543972543975
+VCG LOS告警 VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.001018876018876019
+VCG LOS告警 VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失部分容量,0.0010725010725010724
+VCG LOS告警 VCG端口宿端丢失部分容量 不可用秒开始(UAS) LFD(Loss Of Frame Delineation)告警,0.001287001287001287
+VCG LOS告警 VCG端口宿端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.001287001287001287
+VCG LOS告警 VCG端口宿端丢失部分容量 指针丢失(LP-LOP) LFD(Loss Of Frame Delineation)告警,0.001287001287001287
+VCG LOS告警 VCG端口宿端丢失部分容量 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警,0.001287001287001287
+VCG LOS告警 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.002842127842127842
+VCG LOS告警 不可用秒开始(UAS) LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0036465036465036463
+VCG LOS告警 告警指示信号(LP-AIS) LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0016623766623766623
+VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0036465036465036463
+VCG LOS告警 指针丢失(LP-LOP) LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0036465036465036463
+VCG LOS告警 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0036465036465036463
+VCG LOS告警 VCG端口源端丢失部分容量 不可用秒开始(UAS) LFD(Loss Of Frame Delineation)告警,0.0033783783783783786
+VCG LOS告警 VCG端口源端丢失部分容量 告警指示信号(LP-AIS) LFD(Loss Of Frame Delineation)告警,0.001716001716001716
+VCG LOS告警 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.0033783783783783786
+VCG LOS告警 VCG端口源端丢失部分容量 指针丢失(LP-LOP) LFD(Loss Of Frame Delineation)告警,0.0033783783783783786
+VCG LOS告警 VCG端口源端丢失部分容量 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警,0.0033783783783783786
+VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) LFD(Loss Of Frame Delineation)告警,0.0020913770913770914
+VCG LOS告警 不可用秒开始(UAS) 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.0043972543972543975
+VCG LOS告警 指针丢失(LP-LOP) 不可用秒开始(UAS) LFD(Loss Of Frame Delineation)告警,0.0043972543972543975
+VCG LOS告警 不可用秒开始(UAS) 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警,0.0044508794508794506
+VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.0020913770913770914
+VCG LOS告警 指针丢失(LP-LOP) 告警指示信号(LP-AIS) LFD(Loss Of Frame Delineation)告警,0.0020913770913770914
+VCG LOS告警 告警指示信号(LP-AIS) 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警,0.0020913770913770914
+VCG LOS告警 指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.0043972543972543975
+VCG LOS告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.0043972543972543975
+VCG LOS告警 指针丢失(LP-LOP) 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警,0.0043972543972543975
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警,0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 不可用秒开始(UAS) LFD(Loss Of Frame Delineation)告警,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 指针丢失(LP-LOP) LFD(Loss Of Frame Delineation)告警,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警,0.001287001287001287
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 不可用秒开始(UAS) LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 指针丢失(LP-LOP) LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 不可用秒开始(UAS) LFD(Loss Of Frame Delineation)告警,0.0033247533247533247
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 告警指示信号(LP-AIS) LFD(Loss Of Frame Delineation)告警,0.001716001716001716
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.0033247533247533247
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 指针丢失(LP-LOP) LFD(Loss Of Frame Delineation)告警,0.0033247533247533247
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警,0.0033247533247533247
+VCG端口宿端丢失全部容量 不可用秒开始(UAS) 告警指示信号(LP-AIS) LFD(Loss Of Frame Delineation)告警,0.0020913770913770914
+VCG端口宿端丢失全部容量 不可用秒开始(UAS) 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.004343629343629344
+VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 不可用秒开始(UAS) LFD(Loss Of Frame Delineation)告警,0.004343629343629344
+VCG端口宿端丢失全部容量 不可用秒开始(UAS) 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警,0.0043972543972543975
+VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.0020913770913770914
+VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 告警指示信号(LP-AIS) LFD(Loss Of Frame Delineation)告警,0.0020913770913770914
+VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警,0.0020913770913770914
+VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.004343629343629344
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.004343629343629344
+VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警,0.004343629343629344
+VCG端口宿端丢失部分容量 不可用秒开始(UAS) LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 指针丢失(LP-LOP) LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 不可用秒开始(UAS) LFD(Loss Of Frame Delineation)告警,0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 指针丢失(LP-LOP) LFD(Loss Of Frame Delineation)告警,0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警,0.0010725010725010724
+VCG端口宿端丢失部分容量 不可用秒开始(UAS) 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.001287001287001287
+VCG端口宿端丢失部分容量 指针丢失(LP-LOP) 不可用秒开始(UAS) LFD(Loss Of Frame Delineation)告警,0.001287001287001287
+VCG端口宿端丢失部分容量 不可用秒开始(UAS) 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警,0.001287001287001287
+VCG端口宿端丢失部分容量 指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.001287001287001287
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.001287001287001287
+VCG端口宿端丢失部分容量 指针丢失(LP-LOP) 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警,0.001287001287001287
+VCG端口源端丢失部分容量 不可用秒开始(UAS) LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口源端丢失部分容量 告警指示信号(LP-AIS) LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口源端丢失部分容量 指针丢失(LP-LOP) LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.002842127842127842
+告警指示信号(LP-AIS) 不可用秒开始(UAS) LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0016623766623766623
+不可用秒开始(UAS) 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0036465036465036463
+指针丢失(LP-LOP) 不可用秒开始(UAS) LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0036465036465036463
+不可用秒开始(UAS) 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0036465036465036463
+告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0016623766623766623
+指针丢失(LP-LOP) 告警指示信号(LP-AIS) LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0016623766623766623
+告警指示信号(LP-AIS) 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0016623766623766623
+指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0036465036465036463
+误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0036465036465036463
+指针丢失(LP-LOP) 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警 VCG端口源端丢失全部容量,0.0036465036465036463
+告警指示信号(LP-AIS) VCG端口源端丢失部分容量 不可用秒开始(UAS) LFD(Loss Of Frame Delineation)告警,0.001716001716001716
+VCG端口源端丢失部分容量 不可用秒开始(UAS) 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.0033783783783783786
+VCG端口源端丢失部分容量 不可用秒开始(UAS) LFD(Loss Of Frame Delineation)告警 指针丢失(LP-LOP),0.0033783783783783786
+VCG端口源端丢失部分容量 不可用秒开始(UAS) 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警,0.0033783783783783786
+VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.001716001716001716
+VCG端口源端丢失部分容量 告警指示信号(LP-AIS) LFD(Loss Of Frame Delineation)告警 指针丢失(LP-LOP),0.001716001716001716
+VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警,0.001716001716001716
+VCG端口源端丢失部分容量 指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.0033783783783783786
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.0033783783783783786
+VCG端口源端丢失部分容量 指针丢失(LP-LOP) 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警,0.0033783783783783786
+告警指示信号(LP-AIS) 不可用秒开始(UAS) 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.0020913770913770914
+告警指示信号(LP-AIS) 指针丢失(LP-LOP) 不可用秒开始(UAS) LFD(Loss Of Frame Delineation)告警,0.0020913770913770914
+告警指示信号(LP-AIS) 不可用秒开始(UAS) 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警,0.0020913770913770914
+指针丢失(LP-LOP) 不可用秒开始(UAS) 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.0043972543972543975
+不可用秒开始(UAS) 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC),0.0043972543972543975
+指针丢失(LP-LOP) 不可用秒开始(UAS) 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警,0.0043972543972543975
+指针丢失(LP-LOP) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警,0.0020913770913770914
+告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC),0.0020913770913770914
+指针丢失(LP-LOP) 告警指示信号(LP-AIS) 误码率越限(LP-EXC) LFD(Loss Of Frame Delineation)告警,0.0020913770913770914
+指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S） LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC),0.0043972543972543975
+VCG LOS告警 VCG端口宿端丢失全部容量 VCG端口宿端丢失部分容量 VCG端口源端丢失全部容量,0.001287001287001287
+VCG LOS告警 VCG端口宿端丢失全部容量 VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量,0.0013406263406263406
+VCG LOS告警 VCG端口宿端丢失全部容量 VCG端口宿端丢失部分容量 不可用秒开始(UAS),0.0016623766623766623
+VCG LOS告警 VCG端口宿端丢失全部容量 VCG端口宿端丢失部分容量 告警指示信号(LP-AIS),0.0010725010725010724
+VCG LOS告警 VCG端口宿端丢失全部容量 VCG端口宿端丢失部分容量 增强型远端服务缺陷指示（ERDI-S）,0.0016623766623766623
+VCG LOS告警 VCG端口宿端丢失全部容量 VCG端口宿端丢失部分容量 指针丢失(LP-LOP),0.0016623766623766623
+VCG LOS告警 VCG端口宿端丢失全部容量 VCG端口宿端丢失部分容量 误码率越限(LP-EXC),0.0016623766623766623
+VCG LOS告警 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG端口源端丢失全部容量,0.003861003861003861
+VCG LOS告警 VCG端口宿端丢失全部容量 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.004826254826254826
+VCG LOS告警 VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) VCG端口源端丢失全部容量,0.0022522522522522522
+VCG LOS告警 VCG端口宿端丢失全部容量 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.004826254826254826
+VCG LOS告警 VCG端口宿端丢失全部容量 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.004826254826254826
+VCG LOS告警 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.004826254826254826
+VCG LOS告警 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 不可用秒开始(UAS),0.004719004719004719
+VCG LOS告警 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 告警指示信号(LP-AIS),0.0023058773058773057
+VCG LOS告警 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S）,0.004719004719004719
+VCG LOS告警 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 指针丢失(LP-LOP),0.004719004719004719
+VCG LOS告警 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC),0.004719004719004719
+VCG LOS告警 VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.0027885027885027887
+VCG LOS告警 VCG端口宿端丢失全部容量 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.005898755898755899
+VCG LOS告警 VCG端口宿端丢失全部容量 增强型远端连接缺陷指示 不可用秒开始(UAS),0.0012333762333762333
+VCG LOS告警 VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 不可用秒开始(UAS),0.005898755898755899
+VCG LOS告警 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 不可用秒开始(UAS),0.005952380952380952
+VCG LOS告警 VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.0027885027885027887
+VCG LOS告警 VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 告警指示信号(LP-AIS),0.0027885027885027887
+VCG LOS告警 VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) 误码率越限(LP-EXC),0.0027885027885027887
+VCG LOS告警 VCG端口宿端丢失全部容量 增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S）,0.0012333762333762333
+VCG LOS告警 VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S）,0.005898755898755899
+VCG LOS告警 VCG端口宿端丢失全部容量 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC),0.005898755898755899
+VCG LOS告警 VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 增强型远端连接缺陷指示,0.0012333762333762333
+VCG LOS告警 VCG端口宿端丢失全部容量 增强型远端连接缺陷指示 误码率越限(LP-EXC),0.0012333762333762333
+VCG LOS告警 VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 误码率越限(LP-EXC),0.005898755898755899
+VCG LOS告警 VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 VCG端口源端丢失全部容量,0.001018876018876019
+VCG LOS告警 VCG端口宿端丢失部分容量 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001287001287001287
+VCG LOS告警 VCG端口宿端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.001287001287001287
+VCG LOS告警 VCG端口宿端丢失部分容量 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001287001287001287
+VCG LOS告警 VCG端口宿端丢失部分容量 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.001287001287001287
+VCG LOS告警 VCG端口宿端丢失部分容量 不可用秒开始(UAS) VCG端口源端丢失部分容量,0.0013406263406263406
+VCG LOS告警 VCG端口宿端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失部分容量,0.0013406263406263406
+VCG LOS告警 VCG端口宿端丢失部分容量 指针丢失(LP-LOP) VCG端口源端丢失部分容量,0.0013406263406263406
+VCG LOS告警 VCG端口宿端丢失部分容量 误码率越限(LP-EXC) VCG端口源端丢失部分容量,0.0013406263406263406
+VCG LOS告警 VCG端口宿端丢失部分容量 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.0010725010725010724
+VCG LOS告警 VCG端口宿端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.001716001716001716
+VCG LOS告警 VCG端口宿端丢失部分容量 指针丢失(LP-LOP) 不可用秒开始(UAS),0.001716001716001716
+VCG LOS告警 VCG端口宿端丢失部分容量 误码率越限(LP-EXC) 不可用秒开始(UAS),0.001716001716001716
+VCG LOS告警 VCG端口宿端丢失部分容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.0010725010725010724
+VCG LOS告警 VCG端口宿端丢失部分容量 告警指示信号(LP-AIS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG LOS告警 VCG端口宿端丢失部分容量 告警指示信号(LP-AIS) 误码率越限(LP-EXC),0.0010725010725010724
+VCG LOS告警 VCG端口宿端丢失部分容量 指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S）,0.001716001716001716
+VCG LOS告警 VCG端口宿端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC),0.001716001716001716
+VCG LOS告警 VCG端口宿端丢失部分容量 指针丢失(LP-LOP) 误码率越限(LP-EXC),0.001716001716001716
+VCG LOS告警 VCG端口源端丢失部分容量 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.003914628914628915
+VCG LOS告警 VCG端口源端丢失部分容量 告警指示信号(LP-AIS) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG LOS告警 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.003914628914628915
+VCG LOS告警 VCG端口源端丢失部分容量 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.003914628914628915
+VCG LOS告警 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.003914628914628915
+VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0022522522522522522
+VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.00487987987987988
+VCG LOS告警 指针丢失(LP-LOP) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.00487987987987988
+VCG LOS告警 误码率越限(LP-EXC) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.00487987987987988
+VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0022522522522522522
+VCG LOS告警 指针丢失(LP-LOP) 告警指示信号(LP-AIS) VCG端口源端丢失全部容量,0.0022522522522522522
+VCG LOS告警 告警指示信号(LP-AIS) 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.0022522522522522522
+VCG LOS告警 指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.00487987987987988
+VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.00487987987987988
+VCG LOS告警 指针丢失(LP-LOP) 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.00487987987987988
+VCG LOS告警 VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.0023058773058773057
+VCG LOS告警 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.004826254826254826
+VCG LOS告警 VCG端口源端丢失部分容量 指针丢失(LP-LOP) 不可用秒开始(UAS),0.004826254826254826
+VCG LOS告警 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 不可用秒开始(UAS),0.004826254826254826
+VCG LOS告警 VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.0023058773058773057
+VCG LOS告警 VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 指针丢失(LP-LOP),0.0023058773058773057
+VCG LOS告警 VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 误码率越限(LP-EXC),0.0023058773058773057
+VCG LOS告警 VCG端口源端丢失部分容量 指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S）,0.004826254826254826
+VCG LOS告警 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC),0.004826254826254826
+VCG LOS告警 VCG端口源端丢失部分容量 指针丢失(LP-LOP) 误码率越限(LP-EXC),0.004826254826254826
+VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.002842127842127842
+VCG LOS告警 指针丢失(LP-LOP) 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.002842127842127842
+VCG LOS告警 告警指示信号(LP-AIS) 误码率越限(LP-EXC) 不可用秒开始(UAS),0.002842127842127842
+VCG LOS告警 增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0012333762333762333
+VCG LOS告警 指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.006113256113256113
+VCG LOS告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.006113256113256113
+VCG LOS告警 指针丢失(LP-LOP) 增强型远端连接缺陷指示 不可用秒开始(UAS),0.0012333762333762333
+VCG LOS告警 增强型远端连接缺陷指示 误码率越限(LP-EXC) 不可用秒开始(UAS),0.0012333762333762333
+VCG LOS告警 指针丢失(LP-LOP) 误码率越限(LP-EXC) 不可用秒开始(UAS),0.006113256113256113
+VCG LOS告警 指针丢失(LP-LOP) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.002842127842127842
+VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC),0.002842127842127842
+VCG LOS告警 指针丢失(LP-LOP) 告警指示信号(LP-AIS) 误码率越限(LP-EXC),0.002842127842127842
+VCG LOS告警 指针丢失(LP-LOP) 增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S）,0.0012333762333762333
+VCG LOS告警 增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC),0.0012333762333762333
+VCG LOS告警 指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC),0.006113256113256113
+VCG LOS告警 指针丢失(LP-LOP) 增强型远端连接缺陷指示 误码率越限(LP-EXC),0.0012333762333762333
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 不可用秒开始(UAS),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S）,0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 指针丢失(LP-LOP),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0016623766623766623
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 不可用秒开始(UAS),0.0016623766623766623
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 不可用秒开始(UAS),0.0016623766623766623
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 告警指示信号(LP-AIS),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) 误码率越限(LP-EXC),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S）,0.0016623766623766623
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC),0.0016623766623766623
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 误码率越限(LP-EXC),0.0016623766623766623
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 告警指示信号(LP-AIS) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0023058773058773057
+VCG端口宿端丢失全部容量 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.00487987987987988
+VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.00487987987987988
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.00487987987987988
+VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0023058773058773057
+VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 告警指示信号(LP-AIS) VCG端口源端丢失全部容量,0.0023058773058773057
+VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.0023058773058773057
+VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.00487987987987988
+VCG端口宿端丢失全部容量 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.00487987987987988
+VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.00487987987987988
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.0023058773058773057
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.004719004719004719
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 指针丢失(LP-LOP) 不可用秒开始(UAS),0.004719004719004719
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 不可用秒开始(UAS),0.004719004719004719
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.0023058773058773057
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 指针丢失(LP-LOP),0.0023058773058773057
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 误码率越限(LP-EXC),0.0023058773058773057
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S）,0.004719004719004719
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC),0.004719004719004719
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 指针丢失(LP-LOP) 误码率越限(LP-EXC),0.004719004719004719
+VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.002842127842127842
+VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.002842127842127842
+VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) 误码率越限(LP-EXC) 不可用秒开始(UAS),0.002842127842127842
+VCG端口宿端丢失全部容量 增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0012333762333762333
+VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.005952380952380952
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.005952380952380952
+VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 增强型远端连接缺陷指示 不可用秒开始(UAS),0.0012333762333762333
+VCG端口宿端丢失全部容量 增强型远端连接缺陷指示 误码率越限(LP-EXC) 不可用秒开始(UAS),0.0012333762333762333
+VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 误码率越限(LP-EXC) 不可用秒开始(UAS),0.005952380952380952
+VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.002842127842127842
+VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC),0.002842127842127842
+VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 告警指示信号(LP-AIS) 误码率越限(LP-EXC),0.002842127842127842
+VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S）,0.0012333762333762333
+VCG端口宿端丢失全部容量 增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC),0.0012333762333762333
+VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC),0.005952380952380952
+VCG端口宿端丢失全部容量 指针丢失(LP-LOP) 增强型远端连接缺陷指示 误码率越限(LP-EXC),0.0012333762333762333
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 指针丢失(LP-LOP) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 指针丢失(LP-LOP) 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 指针丢失(LP-LOP) 不可用秒开始(UAS),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 不可用秒开始(UAS),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S）,0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 指针丢失(LP-LOP) 误码率越限(LP-EXC),0.0013406263406263406
+VCG端口宿端丢失部分容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 指针丢失(LP-LOP) 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 告警指示信号(LP-AIS) 误码率越限(LP-EXC) 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.001716001716001716
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.001716001716001716
+VCG端口宿端丢失部分容量 指针丢失(LP-LOP) 误码率越限(LP-EXC) 不可用秒开始(UAS),0.001716001716001716
+VCG端口宿端丢失部分容量 指针丢失(LP-LOP) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.0010725010725010724
+VCG端口宿端丢失部分容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC),0.0010725010725010724
+VCG端口宿端丢失部分容量 指针丢失(LP-LOP) 告警指示信号(LP-AIS) 误码率越限(LP-EXC),0.0010725010725010724
+VCG端口宿端丢失部分容量 指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC),0.001716001716001716
+VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.003914628914628915
+VCG端口源端丢失部分容量 指针丢失(LP-LOP) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.003914628914628915
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.003914628914628915
+VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0018768768768768769
+指针丢失(LP-LOP) VCG端口源端丢失部分容量 告警指示信号(LP-AIS) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口源端丢失部分容量 指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.003914628914628915
+VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.003914628914628915
+VCG端口源端丢失部分容量 指针丢失(LP-LOP) 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.003914628914628915
+告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0023058773058773057
+指针丢失(LP-LOP) 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0023058773058773057
+告警指示信号(LP-AIS) 误码率越限(LP-EXC) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0023058773058773057
+指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.004933504933504933
+误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.004933504933504933
+指针丢失(LP-LOP) 误码率越限(LP-EXC) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.004933504933504933
+指针丢失(LP-LOP) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0023058773058773057
+告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.0023058773058773057
+指针丢失(LP-LOP) 告警指示信号(LP-AIS) 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.0023058773058773057
+指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.004933504933504933
+VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0023058773058773057
+VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0023058773058773057
+VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 误码率越限(LP-EXC) 不可用秒开始(UAS),0.0023058773058773057
+VCG端口源端丢失部分容量 指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.004826254826254826
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.004826254826254826
+VCG端口源端丢失部分容量 指针丢失(LP-LOP) 误码率越限(LP-EXC) 不可用秒开始(UAS),0.004826254826254826
+VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0023058773058773057
+VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC),0.0023058773058773057
+VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 误码率越限(LP-EXC) 指针丢失(LP-LOP),0.0023058773058773057
+VCG端口源端丢失部分容量 指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC),0.004826254826254826
+[衍生告警]:黔西洪家渡B-5-OIB1D-2至黔西化石B-5-OIB1D-2线路紧急告警[衰耗] 信号劣化(RS-SD) 定时输入丢失 帧丢失(LOF),0.0015015015015015015
+[衍生告警]:黔西洪家渡B-5-OIB1D-2至黔西化石B-5-OIB1D-2线路紧急告警[衰耗] 信号劣化(RS-SD) 帧失步(OOF) 定时输入丢失,0.001018876018876019
+[衍生告警]:黔西洪家渡B-5-OIB1D-2至黔西化石B-5-OIB1D-2线路紧急告警[衰耗] 帧失步(OOF) 定时输入丢失 帧丢失(LOF),0.001018876018876019
+指针丢失(LP-LOP) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0028957528957528956
+告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 误码率越限(LP-EXC),0.0028957528957528956
+指针丢失(LP-LOP) 告警指示信号(LP-AIS) 误码率越限(LP-EXC) 不可用秒开始(UAS),0.0028957528957528956
+指针丢失(LP-LOP) 增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0012333762333762333
+增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 误码率越限(LP-EXC),0.0012333762333762333
+指针丢失(LP-LOP) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 误码率越限(LP-EXC),0.006166881166881167
+指针丢失(LP-LOP) 增强型远端连接缺陷指示 误码率越限(LP-EXC) 不可用秒开始(UAS),0.0012333762333762333
+信号劣化(RS-SD) 帧失步(OOF) 定时输入丢失 帧丢失(LOF),0.0011797511797511798
+指针丢失(LP-LOP) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC),0.0028957528957528956
+指针丢失(LP-LOP) 增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S） 误码率越限(LP-EXC),0.0012333762333762333
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警,0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 不可用秒开始(UAS),0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S）,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 指针丢失(LP-LOP),0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警,0.001287001287001287
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 不可用秒开始(UAS),0.0033247533247533247
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS),0.001716001716001716
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S）,0.0033247533247533247
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 指针丢失(LP-LOP),0.0033247533247533247
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警,0.0033247533247533247
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.0020913770913770914
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.004343629343629344
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.004343629343629344
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS),0.0043972543972543975
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.0020913770913770914
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP),0.0020913770913770914
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS),0.0020913770913770914
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.004343629343629344
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S）,0.004343629343629344
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 指针丢失(LP-LOP),0.004343629343629344
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S）,0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警,0.0010725010725010724
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.001287001287001287
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001287001287001287
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS),0.001287001287001287
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.001287001287001287
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S）,0.001287001287001287
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 指针丢失(LP-LOP),0.001287001287001287
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 VCG端口源端丢失全部容量,0.002842127842127842
+LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0016623766623766623
+LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0036465036465036463
+LFD(Loss Of Frame Delineation)告警 VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0036465036465036463
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0036465036465036463
+LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0016623766623766623
+LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) VCG端口源端丢失全部容量,0.0016623766623766623
+LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0036465036465036463
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0036465036465036463
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.001716001716001716
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0033783783783783786
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0033783783783783786
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS),0.0033783783783783786
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.001716001716001716
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP),0.001716001716001716
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS),0.001716001716001716
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0033783783783783786
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S）,0.0033783783783783786
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 指针丢失(LP-LOP),0.0033783783783783786
+LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0020913770913770914
+LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0020913770913770914
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.0020913770913770914
+LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0043972543972543975
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0043972543972543975
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0043972543972543975
+LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0020913770913770914
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.0020913770913770914
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP),0.0020913770913770914
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0043972543972543975
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S）,0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 不可用秒开始(UAS),0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S）,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 指针丢失(LP-LOP),0.001287001287001287
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.001716001716001716
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0033247533247533247
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0033247533247533247
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 不可用秒开始(UAS),0.0033247533247533247
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.001716001716001716
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP),0.001716001716001716
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS),0.001716001716001716
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0033247533247533247
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S）,0.0033247533247533247
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 指针丢失(LP-LOP),0.0033247533247533247
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0020913770913770914
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0020913770913770914
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.0020913770913770914
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.004343629343629344
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.004343629343629344
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.004343629343629344
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0020913770913770914
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.0020913770913770914
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 指针丢失(LP-LOP),0.0020913770913770914
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.004343629343629344
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S）,0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001287001287001287
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.001287001287001287
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001287001287001287
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.001287001287001287
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0016623766623766623
+LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0016623766623766623
+LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0036465036465036463
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0036465036465036463
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0036465036465036463
+LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0016623766623766623
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.001716001716001716
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001716001716001716
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.001716001716001716
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0033783783783783786
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0033783783783783786
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0033783783783783786
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.001716001716001716
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.001716001716001716
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 指针丢失(LP-LOP),0.001716001716001716
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0033783783783783786
+LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0020913770913770914
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0020913770913770914
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0020913770913770914
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0043972543972543975
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0020913770913770914
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG LOS告警 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG LOS告警 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 不可用秒开始(UAS),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S）,0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 指针丢失(LP-LOP),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警,0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0016623766623766623
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0016623766623766623
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS),0.0016623766623766623
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG LOS告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0016623766623766623
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S）,0.0016623766623766623
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 指针丢失(LP-LOP),0.0016623766623766623
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0022522522522522522
+VCG端口宿端丢失全部容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.004826254826254826
+VCG端口宿端丢失全部容量 VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.004826254826254826
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.004826254826254826
+VCG端口宿端丢失全部容量 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0022522522522522522
+VCG端口宿端丢失全部容量 VCG LOS告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0022522522522522522
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) VCG端口源端丢失全部容量,0.0022522522522522522
+VCG端口宿端丢失全部容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.004826254826254826
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.004826254826254826
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.004826254826254826
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.0023058773058773057
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.004719004719004719
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.004719004719004719
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS),0.004719004719004719
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.0023058773058773057
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP),0.0023058773058773057
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS),0.0023058773058773057
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.004719004719004719
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S）,0.004719004719004719
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 指针丢失(LP-LOP),0.004719004719004719
+VCG端口宿端丢失全部容量 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0027885027885027887
+VCG端口宿端丢失全部容量 VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0027885027885027887
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.0027885027885027887
+VCG端口宿端丢失全部容量 VCG LOS告警 增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0012333762333762333
+VCG端口宿端丢失全部容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.005898755898755899
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.005898755898755899
+VCG端口宿端丢失全部容量 VCG LOS告警 增强型远端连接缺陷指示 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0012333762333762333
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端连接缺陷指示 不可用秒开始(UAS),0.0012333762333762333
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.005898755898755899
+VCG端口宿端丢失全部容量 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0027885027885027887
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.0027885027885027887
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP),0.0027885027885027887
+VCG端口宿端丢失全部容量 VCG LOS告警 增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0012333762333762333
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S）,0.0012333762333762333
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.005898755898755899
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端连接缺陷指示 指针丢失(LP-LOP),0.0012333762333762333
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 VCG LOS告警 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 VCG LOS告警 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S）,0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 指针丢失(LP-LOP),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001716001716001716
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.001716001716001716
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001716001716001716
+VCG端口宿端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.0010725010725010724
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.001716001716001716
+VCG端口源端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口源端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.003914628914628915
+VCG端口源端丢失部分容量 VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.003914628914628915
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.003914628914628915
+VCG端口源端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口源端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口源端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.003914628914628915
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.003914628914628915
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.003914628914628915
+VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0022522522522522522
+VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0022522522522522522
+误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0022522522522522522
+VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.00487987987987988
+误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.00487987987987988
+误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.00487987987987988
+VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0022522522522522522
+误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0022522522522522522
+误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0022522522522522522
+误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.00487987987987988
+VCG端口源端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0023058773058773057
+VCG端口源端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0023058773058773057
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.0023058773058773057
+VCG端口源端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.004826254826254826
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.004826254826254826
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.004826254826254826
+VCG端口源端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0023058773058773057
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.0023058773058773057
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP),0.0023058773058773057
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.004826254826254826
+VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.002842127842127842
+误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.002842127842127842
+误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.002842127842127842
+VCG LOS告警 增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0012333762333762333
+误码率越限(LP-EXC) VCG LOS告警 增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0012333762333762333
+误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.006113256113256113
+误码率越限(LP-EXC) VCG LOS告警 增强型远端连接缺陷指示 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0012333762333762333
+误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.002842127842127842
+误码率越限(LP-EXC) VCG LOS告警 增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0012333762333762333
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 不可用秒开始(UAS),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S）,0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 指针丢失(LP-LOP),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0016623766623766623
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0016623766623766623
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0016623766623766623
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0016623766623766623
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0023058773058773057
+VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0023058773058773057
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0023058773058773057
+VCG端口宿端丢失全部容量 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.00487987987987988
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.00487987987987988
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.00487987987987988
+VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0023058773058773057
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0023058773058773057
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0023058773058773057
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.00487987987987988
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0023058773058773057
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0023058773058773057
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.0023058773058773057
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.004719004719004719
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.004719004719004719
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.004719004719004719
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0023058773058773057
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.0023058773058773057
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 指针丢失(LP-LOP),0.0023058773058773057
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.004719004719004719
+VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.002842127842127842
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.002842127842127842
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.002842127842127842
+VCG端口宿端丢失全部容量 增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0012333762333762333
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0012333762333762333
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.005952380952380952
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 增强型远端连接缺陷指示 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0012333762333762333
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.002842127842127842
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0012333762333762333
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0013406263406263406
+VCG端口宿端丢失部分容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001716001716001716
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.003914628914628915
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.003914628914628915
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.003914628914628915
+VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.003914628914628915
+告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0023058773058773057
+误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0023058773058773057
+误码率越限(LP-EXC) 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0023058773058773057
+误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.004933504933504933
+误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0023058773058773057
+VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0023058773058773057
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0023058773058773057
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0023058773058773057
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.004826254826254826
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0023058773058773057
+误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0028957528957528956
+误码率越限(LP-EXC) 增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0012333762333762333
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S）,0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警,0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS),0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S）,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 指针丢失(LP-LOP),0.001287001287001287
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.001716001716001716
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0033247533247533247
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0033247533247533247
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS),0.0033247533247533247
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.001716001716001716
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP),0.001716001716001716
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS),0.001716001716001716
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0033247533247533247
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S）,0.0033247533247533247
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 指针丢失(LP-LOP),0.0033247533247533247
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0020913770913770914
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0020913770913770914
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.0020913770913770914
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.004343629343629344
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.004343629343629344
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.004343629343629344
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0020913770913770914
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.0020913770913770914
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP),0.0020913770913770914
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.004343629343629344
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S）,0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001287001287001287
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.001287001287001287
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001287001287001287
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.001287001287001287
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0016623766623766623
+LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0016623766623766623
+LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0036465036465036463
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0036465036465036463
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0036465036465036463
+LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0016623766623766623
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.001716001716001716
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001716001716001716
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.001716001716001716
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0033783783783783786
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0033783783783783786
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0033783783783783786
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.001716001716001716
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.001716001716001716
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP),0.001716001716001716
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0033783783783783786
+LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0020913770913770914
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0020913770913770914
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0020913770913770914
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0043972543972543975
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0020913770913770914
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S）,0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.001287001287001287
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.001716001716001716
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001716001716001716
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.001716001716001716
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0033247533247533247
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0033247533247533247
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0033247533247533247
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.001716001716001716
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.001716001716001716
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 指针丢失(LP-LOP),0.001716001716001716
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0033247533247533247
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0020913770913770914
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0020913770913770914
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0020913770913770914
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.004343629343629344
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0020913770913770914
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001287001287001287
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0016623766623766623
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0036465036465036463
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001716001716001716
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.001716001716001716
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001716001716001716
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0033783783783783786
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.001716001716001716
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0020913770913770914
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S）,0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 指针丢失(LP-LOP),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0016623766623766623
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0016623766623766623
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0016623766623766623
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0016623766623766623
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0022522522522522522
+VCG端口宿端丢失全部容量 VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0022522522522522522
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0022522522522522522
+VCG端口宿端丢失全部容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.004826254826254826
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.004826254826254826
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.004826254826254826
+VCG端口宿端丢失全部容量 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0022522522522522522
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0022522522522522522
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0022522522522522522
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.004826254826254826
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0023058773058773057
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0023058773058773057
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.0023058773058773057
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.004719004719004719
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.004719004719004719
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.004719004719004719
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0023058773058773057
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.0023058773058773057
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP),0.0023058773058773057
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.004719004719004719
+VCG端口宿端丢失全部容量 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0027885027885027887
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0027885027885027887
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0027885027885027887
+VCG端口宿端丢失全部容量 VCG LOS告警 增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0012333762333762333
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0012333762333762333
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.005898755898755899
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端连接缺陷指示 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0012333762333762333
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0027885027885027887
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0012333762333762333
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001716001716001716
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口源端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口源端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口源端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.003914628914628915
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.003914628914628915
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.003914628914628915
+VCG端口源端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.003914628914628915
+VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0022522522522522522
+误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0022522522522522522
+误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0022522522522522522
+误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.00487987987987988
+误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0022522522522522522
+VCG端口源端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0023058773058773057
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0023058773058773057
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0023058773058773057
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.004826254826254826
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0023058773058773057
+误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.002842127842127842
+误码率越限(LP-EXC) VCG LOS告警 增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0012333762333762333
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0016623766623766623
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0023058773058773057
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0023058773058773057
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0023058773058773057
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.00487987987987988
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0023058773058773057
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0023058773058773057
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0023058773058773057
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0023058773058773057
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.004719004719004719
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0023058773058773057
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.002842127842127842
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0012333762333762333
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0013406263406263406
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.003914628914628915
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0023058773058773057
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0023058773058773057
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S）,0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.001287001287001287
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.001716001716001716
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001716001716001716
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS),0.001716001716001716
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0033247533247533247
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0033247533247533247
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0033247533247533247
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.001716001716001716
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S）,0.001716001716001716
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP),0.001716001716001716
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0033247533247533247
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0020913770913770914
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0020913770913770914
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0020913770913770914
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.004343629343629344
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0020913770913770914
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001287001287001287
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0016623766623766623
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0036465036465036463
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001716001716001716
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.001716001716001716
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001716001716001716
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0033783783783783786
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.001716001716001716
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0020913770913770914
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001287001287001287
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001716001716001716
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.001716001716001716
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001716001716001716
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0033247533247533247
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.001716001716001716
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0020913770913770914
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001716001716001716
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0016623766623766623
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0022522522522522522
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0022522522522522522
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0022522522522522522
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.004826254826254826
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0022522522522522522
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0023058773058773057
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0023058773058773057
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0023058773058773057
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.004719004719004719
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0023058773058773057
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0027885027885027887
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端连接缺陷指示 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0012333762333762333
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0013406263406263406
+VCG端口宿端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口源端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.003914628914628915
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0022522522522522522
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0023058773058773057
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0023058773058773057
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0023058773058773057
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001287001287001287
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0036465036465036463
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001716001716001716
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS),0.001716001716001716
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001716001716001716
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0033247533247533247
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP),0.001716001716001716
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0020913770913770914
+VCG端口宿端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001716001716001716
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001716001716001716
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001287001287001287
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0013406263406263406
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.003861003861003861
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0022522522522522522
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0023058773058773057
+VCG端口宿端丢失部分容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.0010725010725010724
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.002842127842127842
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0016623766623766623
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP),0.001716001716001716
+VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
+VCG端口宿端丢失部分容量 VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.001018876018876019
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0018768768768768769
+VCG端口宿端丢失全部容量 VCG端口源端丢失部分容量 LFD(Loss Of Frame Delineation)告警 误码率越限(LP-EXC) VCG LOS告警 告警指示信号(LP-AIS) 增强型远端服务缺陷指示（ERDI-S） 不可用秒开始(UAS) 指针丢失(LP-LOP) VCG端口源端丢失全部容量,0.0013942513942513943
