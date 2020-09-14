@@ -31,6 +31,7 @@ def warn_realtion(req):
             req_para=json.loads(req.body)
             print(req_para)
             warn_data_url = str(req_para["warn_data_url"])
+
             upload_url=str(req_para["warn_data_url"])
             if su.isURL(warn_data_url):
                 min_support = str(req_para['min_support'])

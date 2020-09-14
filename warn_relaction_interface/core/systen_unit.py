@@ -79,7 +79,7 @@ def isURL(url):
              "([0-9a-z_!~*'()-]+\.)*" \
              "([0-9a-z][0-9a-z-]{0,61})?[0-9a-z]\." \
              "[a-z]{2,6})" \
-             "(:[0-9]{1,4})?" \
+             "(:[0-9]{1,5})?" \
              "((/?)|" \
              "(/[0-9a-z_!~*'().;?:@&=+$,%#-]+)+/?)$"
     m = re.match(strUrl, url)
@@ -87,6 +87,8 @@ def isURL(url):
         return True
     else:
         return False
+
+
 
 
 def get_unique_str():

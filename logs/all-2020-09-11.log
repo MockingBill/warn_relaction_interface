@@ -27,3 +27,16 @@
 [2020-09-11 10:16:43,167] [systen_unit.py:49] [systen_unit:is_good_file] [INFO]- [148377424588decc1230210105076960]:shape(300000, 5)csv列数量正确
 [2020-09-11 10:16:43,175] [view.py:57] [view:warn_realtion] [INFO]- [148377424588decc1230210105076960]:请求成功，任务开始启动
 [2020-09-11 10:16:43,176] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /warn_realtion HTTP/1.1" 200 226
+[2020-09-11 10:40:22,638] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/upload/d5a1b2d8-1a68-4c7f-8c5a-a98d318b7843.csv HTTP/1.1" 200 30599609
+[2020-09-11 10:40:23,144] [systen_unit.py:49] [systen_unit:is_good_file] [INFO]- [977d72fdf2d5e07f31c1a8d99fac3c29]:shape(300000, 5)csv列数量正确
+[2020-09-11 10:40:23,153] [view.py:57] [view:warn_realtion] [INFO]- [977d72fdf2d5e07f31c1a8d99fac3c29]:请求成功，任务开始启动
+[2020-09-11 10:40:23,154] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /warn_realtion HTTP/1.1" 200 226
+[2020-09-11 10:40:29,297] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /get_resu_process HTTP/1.1" 200 81
+[2020-09-11 11:25:15,004] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/upload/d5a1b2d8-1a68-4c7f-8c5a-a98d318b7843.csv HTTP/1.1" 200 30599609
+[2020-09-11 11:25:15,451] [systen_unit.py:49] [systen_unit:is_good_file] [INFO]- [214ca62297cc70de6fdb4694d3016a87]:shape(300000, 5)csv列数量正确
+[2020-09-11 11:25:15,462] [view.py:57] [view:warn_realtion] [INFO]- [214ca62297cc70de6fdb4694d3016a87]:请求成功，任务开始启动
+[2020-09-11 11:25:15,463] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /warn_realtion HTTP/1.1" 200 226
+[2020-09-11 11:29:21,973] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /static/upload/d5a1b2d8-1a68-4c7f-8c5a-a98d318b7843.csv HTTP/1.1" 200 30599609
+[2020-09-11 11:29:22,394] [systen_unit.py:49] [systen_unit:is_good_file] [INFO]- [9f1fac1e531f0bcb91eb639906b4f805]:shape(300000, 5)csv列数量正确
+[2020-09-11 11:29:22,403] [view.py:57] [view:warn_realtion] [INFO]- [9f1fac1e531f0bcb91eb639906b4f805]:请求成功，任务开始启动
+[2020-09-11 11:29:22,404] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /warn_realtion HTTP/1.1" 200 226

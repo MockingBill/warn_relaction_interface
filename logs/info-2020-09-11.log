@@ -4,3 +4,9 @@
 [2020-09-11 10:16:04,140] [view.py:57] [view:warn_realtion] [INFO]- [48711e95981fcd846e65f1cd9f77c33a]:请求成功，任务开始启动
 [2020-09-11 10:16:43,167] [systen_unit.py:49] [systen_unit:is_good_file] [INFO]- [148377424588decc1230210105076960]:shape(300000, 5)csv列数量正确
 [2020-09-11 10:16:43,175] [view.py:57] [view:warn_realtion] [INFO]- [148377424588decc1230210105076960]:请求成功，任务开始启动
+[2020-09-11 10:40:23,144] [systen_unit.py:49] [systen_unit:is_good_file] [INFO]- [977d72fdf2d5e07f31c1a8d99fac3c29]:shape(300000, 5)csv列数量正确
+[2020-09-11 10:40:23,153] [view.py:57] [view:warn_realtion] [INFO]- [977d72fdf2d5e07f31c1a8d99fac3c29]:请求成功，任务开始启动
+[2020-09-11 11:25:15,451] [systen_unit.py:49] [systen_unit:is_good_file] [INFO]- [214ca62297cc70de6fdb4694d3016a87]:shape(300000, 5)csv列数量正确
+[2020-09-11 11:25:15,462] [view.py:57] [view:warn_realtion] [INFO]- [214ca62297cc70de6fdb4694d3016a87]:请求成功，任务开始启动
+[2020-09-11 11:29:22,394] [systen_unit.py:49] [systen_unit:is_good_file] [INFO]- [9f1fac1e531f0bcb91eb639906b4f805]:shape(300000, 5)csv列数量正确
+[2020-09-11 11:29:22,403] [view.py:57] [view:warn_realtion] [INFO]- [9f1fac1e531f0bcb91eb639906b4f805]:请求成功，任务开始启动
